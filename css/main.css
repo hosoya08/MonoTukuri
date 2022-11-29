@@ -1,0 +1,1841 @@
+@charset "UTF8";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --cyellow: #ffec00;
+  /* --cblue: #1aadec; */
+  --cblue: #2f95c1;
+  --red03: #e01f06;
+  --red02: #d6046c;
+  --red: #f38200;
+  /* --lgreen: #3eb0af; */
+  --lgreen: #20992a;
+  /* --orange: #f38200; */
+  --orange: #feba00;
+}
+/* vodeo */
+.video {
+  margin: auto;
+  margin-top: 75px;
+  width: 722px;
+  height: 450px;
+  background-color: rgb(116, 116, 116);
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sp {
+  display: none;
+}
+
+.c-o {
+  background-color: var(--orange);
+}
+.c-y {
+  background-color: var(--cyellow);
+}
+.c-b {
+  background-color: var(--cblue);
+}
+.c-r {
+  background-color: var(--red);
+}
+.c-g {
+  background-color: var(--lgreen);
+}
+header {
+  width: 100%;
+}
+.header_box01 {
+  /* background-color: var(--cblue); */
+}
+.f_btn {
+  width: 313rem;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+}
+.f_btn::after {
+  content: "";
+  position: absolute;
+  width: 9rem;
+  height: 9rem;
+  top: 50%;
+  transform: rotate(45deg) translateY(-50%);
+  right: 30rem;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  cursor: pointer;
+}
+.form_btn.none {
+  cursor: unset;
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #969696;
+  box-shadow: 5px 5px 0px #313131;
+}
+.form_btn.none:hover {
+  opacity: 1;
+}
+.form_btn {
+  width: 313px;
+  height: 78px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: #f38200;
+  border: none;
+  box-shadow: 5px 5px 0px #ffff00;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  padding-left: 30px;
+  font-size: 18rem, 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.form_btn:hover {
+  opacity: 0.8;
+}
+.main_content {
+  padding-bottom: 100px;
+}
+/* コンテンツ毎のタイトル */
+.main_content_block_title {
+  width: 100%;
+  height: min(80rem, 80px);
+  line-height: min(80rem, 80px);
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.main_content_block_title:after {
+  content: "";
+  position: absolute;
+  bottom: -25rem;
+  left: 50%;
+  transform: rotate(45deg) translateX(-50%);
+  width: 30rem;
+  height: 30rem;
+  z-index: -1;
+}
+.main_content_block_title.c-o.bf span,
+.main_content_block_title.c-y.bf span,
+.main_content_block_title.c-b.bf span {
+  position: relative;
+}
+.main_content_block_title.c-o.bf span::after,
+.main_content_block_title.c-y.bf span::after,
+.main_content_block_title.c-b.bf span::after {
+  content: "ぎのうし";
+  font-size: 12px;
+  position: absolute;
+  top: -45px;
+  left: 0;
+  color: white;
+}
+.main_content_block_title.c-y.bf span::after {
+  color: #000;
+}
+
+/* ルビ */
+.ruby_index03 {
+  position: relative;
+}
+.ruby_index03::after {
+  content: "いなほ";
+  position: absolute;
+  left: 0;
+  top: -30px;
+  font-size: 12px;
+}
+.ruby_index03.n02::after {
+  content: "くき";
+  position: absolute;
+  left: -4px;
+  top: -11px;
+  font-size: 10px;
+  width: 30px;
+}
+.ruby_index03.n03::after {
+  content: "いなほ";
+  position: absolute;
+  left: -2px;
+  top: -12px;
+  font-size: 10px;
+  width: 30px;
+}
+.ruby_index03.n04::after {
+  content: "つめ";
+  position: absolute;
+  left: -4px;
+  top: -11px;
+  font-size: 10px;
+  width: 30px;
+}
+.ruby_index03.n05::after {
+  content: "みぞ";
+  position: absolute;
+  left: 0px;
+  top: -11px;
+  font-size: 10px;
+  width: 30px;
+}
+.ruby_index03.n06::after {
+  content: "いっしょ";
+  position: absolute;
+  left: 0px;
+  top: -11px;
+  font-size: 10px;
+  width: 50px;
+}
+.ruby_index03.n07::after {
+  content: "かたむ";
+  position: absolute;
+  left: 0px;
+  top: -11px;
+  font-size: 10px;
+  width: 50px;
+}
+.index04_jougi,
+.index04_hashi {
+    position: relative;
+  }
+  .index04_jougi::after {
+    content: "じょうぎ";
+    font-size: 10px;
+    color: #000;
+    position: absolute;
+    top: -20px;
+    left: -5px;
+    display: block;
+  }
+  .index04_hashi::after {
+    content: "はし";
+    font-size: 10px;
+    color: #000;
+    position: absolute;
+    top: -20px;
+    left: -3px;
+    display: block;
+  }
+
+@media (max-width: 800px) {
+  .ruby_index03::after {
+    content: "いなほ";
+    position: absolute;
+    left: 0;
+    top: -40px;
+    font-size: min(12rem, 12px);
+    width: 55px;
+  }
+  .ruby_index03.n02::after {
+    content: "くき";
+    position: absolute;
+    left: 0;
+    top: -15px;
+    font-size: min(10rem, 14px);
+    width: 30px;
+  }
+  .ruby_index03.n03::after {
+    content: "いなほ";
+    position: absolute;
+    left: -2px;
+    top: -15px;
+    font-size: min(10rem, 14px);
+    width: 55px;
+  }
+  .ruby_index03.n04::after {
+    content: "つめ";
+    position: absolute;
+    left: -4px;
+    top: -11px;
+    font-size: min(10rem, 14px);
+    width: 30px;
+  }
+  .ruby_index03.n05::after {
+    content: "ほ";
+    position: absolute;
+    left: 0px;
+    top: -11px;
+    font-size: min(10rem, 14px);
+  }
+}
+
+@media (min-width: 800px) {
+  html {
+    font-size: calc(100vw / 1280);
+  }
+
+  header {
+    width: 100%;
+    display: flex;
+    height: 120rem;
+    justify-content: space-between;
+    background-color: #efe8d5;
+  }
+  .header_box01 {
+    width: 244rem;
+    height: 100%;
+    display: block;
+    position: relative;
+    /* overflow: hidden; */
+  }
+  .header_box01 img {
+    width: 203rem;
+    height: 115rem;
+    position: absolute;
+    bottom: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+  .header_box02 {
+    width: 876rem;
+    height: 100%;
+    /* background-color: var(--cyellow); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header_box02 img {
+    width: 421rem;
+    height: 21rem;
+  }
+  .header_box03 {
+    width: 160rem;
+    height: 100%;
+    background-color: #efe8d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header_box03 img {
+    width: 128rem;
+    height: 33rem;
+  }
+  /* header end */
+  .f_btn {
+    width: 313rem;
+    margin-top: 50px;
+  }
+  .f_btn::after {
+    width: 9rem;
+    height: 9rem;
+    right: 30rem;
+  }
+  .form_btn {
+    width: 313px;
+    height: 78px;
+    border-radius: 20px;
+    padding-left: 30px;
+    font-size: 18px;
+  }
+  .main_content_block01 {
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+  }
+  .main_content_block01::before {
+    content: "";
+    width: 100%;
+    padding-top: 381rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--red);
+  }
+  .main_content_block01.c-g::before {
+    background-color: var(--lgreen);
+  }
+  .main_content_block01.c-o::before {
+    background-color: var(--orange);
+  }
+
+  .main_content_block01 h2 {
+    font-size: 28rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 100rem;
+    position: relative;
+  }
+  .main_content_block01 small {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    display: block;
+  }
+  .main_content_block01_img {
+    margin: auto;
+    margin-top: 50rem;
+    width: 722rem;
+    max-width: 722px;
+    height: 450rem;
+    max-height: 450px;
+    position: relative;
+    background-image: url(../img/imdexs_img/img01@2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .index02 .main_content_block01_img {
+    background-image: url(https://saitama-vada.jp/wp-content/themes/trialclass/img/experience_02.jpg);
+  }
+  .index03 .main_content_block01_img {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/experience_03.jpeg);
+  }
+  .index04 .main_content_block01_img {
+    /* background-image: url(https://tucode08.com/mono/wp-content/themes/trialclass/img/img02/experience_04.jpg); */
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/完成-1.bmp);
+  }
+  .index05 .main_content_block01_img {
+    background-image: url(https://tucode08.com/mono/wp-content/themes/trialclass/img/img02/experience_05.jpg);
+  }
+  .index06 .main_content_block01_img {
+    background-image: url(https://saitama-vada.jp/wp-content/themes/trialclass/img/img02/experience_06.jpg);
+  }
+  /* block02 */
+  .main_content_block02 {
+    /* margin-top: 50rem; */
+  }
+  .main_content_block_title.c-b::after {
+    background-color: var(--cblue);
+  }
+  .main_content_block_title.c-o::after {
+    background-color: var(--orange);
+  }
+  .main_content_block_title.c-y::after {
+    background-color: var(--cyellow);
+  }
+  .main_content_block_title.c-y {
+    color: #000;
+  }
+  /* 共通部分　制作手順 */
+  .main_content_block02_flex {
+    width: min(1020rem, 1020px);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .main_content_block02_flex li {
+    width: min(340rem, 340px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main_content_block02_img {
+    width: min(290rem, 290px);
+    height: min(180rem, 180px);
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .main_content_block02_img.n01 {
+    background-image: url(../img/imdexs_img/img02@2x.jpg);
+  }
+  .main_content_block02_img.n02 {
+    background-image: url(../img/imdexs_img/img03@2x.jpg);
+  }
+  .main_content_block02_img.n03 {
+    background-image: url(../img/imdexs_img/text01img04@2x.jpg);
+  }
+  .main_content_block02_img.n04 {
+    background-image: url(../img/imdexs_img/n-img04.jpg);
+  }
+  .main_content_block02_img.n05 {
+    background-image: url(../img/imdexs_img/img05@2x.jpg);
+    background-position: top;
+  }
+  .main_content_block02_img.n06 {
+    background-image: url(../img/imdexs_img/img06@2x.jpg);
+  }
+  .main_content_block02_img.n07 {
+    background-image: url(../img/imdexs_img/img07@2x.jpg);
+  }
+  .main_content_block02_img.n08 {
+    background-image: url(../img/imdexs_img/n-img08.jpg);
+  }
+  .main_content_block02_img.n09 {
+    background-image: url(../img/imdexs_img/img10@2x.jpg);
+  }
+  /* index02 */
+  .index02 .main_content_block02_img.n2-01 {
+    background-image: url(../img/indexs02/index02.JPG);
+  }
+  .index02 .main_content_block02_img.n2-02 {
+    background-image: url(../img/indexs02/img01.jpg);
+  }
+  .index02 .main_content_block02_img.n2-03 {
+    background-image: url(../img/indexs02/img02.jpg);
+  }
+  .index02 .main_content_block02_img.n2-04 {
+    background-image: url(../img/n-img04.jpg);
+  }
+  .index02 .main_content_block02_img.n2-05 {
+    background-image: url(../img/indexs02/img03.jpg);
+  }
+  .index02 .main_content_block02_img.n2-06 {
+    background-image: url(../img/indexs02/img04.jpg);
+  }
+  /*.index02 .main_content_block02_img.n2-06 {
+        background-image: url(../img/indexs02/img05.jpg);
+      }
+      */
+
+  .index02 .main_content_block02_img.n2-07 {
+    background-image: url(../img/indexs02/img06.JPG);
+  }
+  .index02 .main_content_block02_img.n2-08 {
+    background-image: url(../img/indexs02/img07.JPG);
+  }
+  .index02 .main_content_block02_img.n2-09 {
+    background-image: url(../img/indexs02/img08.JPG);
+  }
+  /* index03 */
+  .index03 .main_content_block02_img.n3-01 {
+    /* background-image: url(../img/index03/index03.jpg); 
+    background-image: url(../img/index03/second/img01.jpg);*/
+  }
+  .index03 .main_content_block02_img.n3-02 {
+    background-image: url(../img/index03/img01.jpg);
+  }
+  .index03 .main_content_block02_img.n3-03 {
+    background-image: url(../img/index03/img02.jpg);
+  }
+  .index03 .main_content_block02_img.n3-04 {
+    background-image: url(../img/index03/img03.jpg);
+  }
+  .index03 .main_content_block02_img.n3-05 {
+    background-image: url(../img/index03/img04.jpg);
+  }
+  .index03 .main_content_block02_img.n3-06 {
+    background-image: url(../img/index03/img05.jpg);
+  }
+  .index03 .main_content_block02_img.n3-07 {
+    background-image: url(../img/index03/img06.jpg);
+  }
+  .index03 .main_content_block02_img.n3-08 {
+    background-image: url(../img/index03/img07.jpg);
+  }
+  .index03 .main_content_block02_img.n3-09 {
+    background-image: url(../img/index03/img08.jpg);
+  }
+  /* index04 */
+  .index04 .main_content_block02_img.n01 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/1.シール貼る.bmp);
+  }
+  .index04 .main_content_block02_img.n02 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/2.切る.bmp);
+  }
+  .index04 .main_content_block02_img.n03 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/3.ミシンで縫う.bmp);
+  }
+  .index04 .main_content_block02_img.n04 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/4.縫ったひもを本体に縫い付け.bmp);
+  }
+  .index04 .main_content_block02_img.n05 {
+      background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/5-3.bmp);
+}
+.index04 .main_content_block02_img.n06 {
+      background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/6.アイロンをかける.bmp);
+  }
+  .index04 .main_content_block02_img.n07 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/7.２枚を合わせる.bmp);
+  }
+  .index04 .main_content_block02_img.n08 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/8.折り倒してアイロンかける.bmp);
+  }
+  .index04 .main_content_block02_img.n09 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/9.左右をミシンで縫う.bmp);
+  }
+  .index04 .main_content_block02_img.n10 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/10.bmp);
+  }
+  .index04 .main_content_block02_img.n11 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/11.ひっくり返す.bmp);
+  }
+  .index04 .main_content_block02_img.n12 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/12.クリップつける.bmp);
+  }
+   /* index05 */
+   .index05 .main_content_block02_img.n2-01 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/1.刺し縫い.bmp);
+    background-color: #ddd;
+  }
+  .index05 .main_content_block02_img.n2-02 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/2.止める.bmp);
+    background-color: #ddd;
+  }
+  .index05 .main_content_block02_img.n2-03 {
+      background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/4.へりを固定.bmp);
+      background-color: #ddd;
+    }
+    .index05 .main_content_block02_img.n2-04 {
+      background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/3.糸をつなぐ.bmp);
+    background-color: #ddd;
+  }
+  .index05 .main_content_block02_img.n2-05 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/5.返し縫.bmp);
+    background-color: #ddd;
+  }
+  .index05 .main_content_block02_img.n2-06 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/6両面テープを貼って折り返す.bmp);
+    background-color: #ddd;
+  }
+  .index05 .main_content_block02_img.n2-07 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/7.針で角をきれいにする.bmp);
+    background-color: #ddd;
+  }
+  .index05 .main_content_block02_img.n2-08 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/8.滑り止めを貼る.bmp);
+    background-color: #ddd;
+  }
+  .index05 .main_content_block02_img.n2-09 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/9.完成.bmp);
+    background-color: #ddd;
+  }
+    /* index06 */
+    .index06 .main_content_block02_img.n3-01 {
+        background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/1.デザインを考えて並べる.bmp);
+        background-color: #ddd;
+      }
+      .index06 .main_content_block02_img.n3-02 {
+        background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/2.置き紙の上に置く.bmp);
+        background-color: #ddd;
+      }
+      .index06 .main_content_block02_img.n3-03 {
+        background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/3.両面テープをはがして置く.bmp);
+        background-color: #ddd;
+      }
+      .index06 .main_content_block02_img.n3-04 {
+        background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/4.セメントを混ぜる.bmp);
+        background-color: #ddd;
+      }
+      .index06 .main_content_block02_img.n3-05 {
+        background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/5.固さ調節.bmp);
+        background-color: #ddd;
+      }
+      .index06 .main_content_block02_img.n3-06 {
+        background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/6.タイルのすきまにいれる.bmp);
+        background-color: #ddd;
+      }
+      .index06 .main_content_block02_img.n3-07 {
+        background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/7.スポンジでふきとる.bmp);
+        background-color: #ddd;
+      }
+      .index06 .main_content_block02_img.n3-08 {
+        background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/8.タオルなどで拭く.bmp);
+        background-color: #ddd;
+      }
+      .index06 .main_content_block02_img.n3-09 {
+        background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/9.完成-1-scaled.jpg);
+        background-color: #ddd;
+      }
+
+
+  .video_text {
+    margin: auto;
+    margin-top: 50px;
+    width: min(1000rem, 1000px);
+  }
+  .video_text h2 {
+  }
+
+  .main_content_block02_img::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -33rem;
+    width: min(22rem, 22px);
+    height: min(22rem, 22px);
+    background-image: url(../img/item01.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main_content_block02_img.before_none::before {
+    display: none;
+  }
+  .main_content_block02_flex li p {
+    width: min(290rem, 290px);
+    margin-top: 20px;
+    line-height: 1.8;
+    font-size: min(14rem, 14px);
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 30px;
+  }
+  /* block03 */
+  .main_content_block03 {
+    margin-top: 70px;
+  }
+  /* block2-2 */
+  .main_content_block02-2 {
+    margin-top: 50rem;
+  }
+  .main_content_block02-2_box {
+    width: min(1020rem, 1020px);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+  }
+  .main_content_block02-2_box__img {
+    width: min(460rem, 460px);
+    height: min(311rem, 311px);
+    background-image: url(../img/imdexs_img/img02@2x.jpg);
+    /* background-image: url(../img/index03/second/img01.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .index02 .main_content_block02-2_box__img {
+    background-image: url(../img/indexs02/index02.JPG);
+  }
+  .index03 .main_content_block02-2_box__img {
+    /* background-image: url(../img/index03/index03.jpg); */
+    background-image: url(../img/index03/second/img01.jpg);
+  }
+  .index04 .main_content_block02-2_box__img {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/058C1025-scaled.jpg);
+  }
+  .index05 .main_content_block02-2_box__img {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/058C1093-scaled.jpg);
+    background-color: #ddd;
+  }
+  .index06 .main_content_block02-2_box__img {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/058C1068-scaled.jpg);
+    background-color: #ddd;
+  }
+  .main_content_block02-2_box_list {
+    width: min(460rem, 460px);
+  }
+  .main_content_block02-2_box_list li {
+    border-bottom: 1px dotted #000;
+    /* height: 54px;
+    line-height: 54px; */
+    padding: 10px 0;
+    font-size: min(18rem, 18px);
+    font-weight: 500;
+  }
+  .main_content_block03-2 ul {
+    width: min(800rem, 1000px);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+  }
+  .main_content_block03-2 ul li {
+    display: block;
+    border: 1px solid #000;
+    padding: 6px 19px;
+    margin-right: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .index02 .main_content_block03-2 ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .index01 .main_content_block03-2 ul li:last-child {
+    margin-top: 10px;
+  }
+  .main_content_block03-2 ul li:last-child {
+    margin-right: 0;
+  }
+  .main_content_block02_caution {
+    width: min(530rem, 530px);
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    padding: 10px 32px 20px;
+    margin-top: 40px;
+  }
+  .main_content_block02_caution img {
+    width: 54px;
+    height: 44px;
+    display: block;
+    margin: auto;
+  }
+  .main_content_block02_caution_p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .main_content_block02_caution_p02 {
+    font-size: 16px;
+    text-align: right;
+    font-weight: 500;
+    color: #000;
+    line-height: 1.75;
+  }
+  .index02 .main_content_block02_caution_p02 {
+    text-align: center;
+  }
+  .index02 .main_content_block02_caution {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .index02 .main_content_block02_caution ul {
+    margin-top: 20px;
+  }
+  .index02 .main_content_block02_caution ul li {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  /* 技能士の職種紹介 */
+  .main_content_block03 {
+    padding-bottom: 100px;
+  }
+  .main_content_block03_text {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  .index02 .main_content_block03_text {
+    line-height: 1.5;
+  }
+  .main_content_block03_text span {
+    position: relative;
+  }
+  .main_content_block03_box {
+    background-color: #f4f4f4;
+    width: min(970rem, 1000px);
+    padding: 50rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .main_content_block03_box__img {
+    background-image: url(../img/imdexs_img/gif01.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: min(250rem, 250px);
+    height: min(250rem, 250px);
+  }
+  .index02 .main_content_block03_box__img {
+    background-image: url(../img/imdexs_img/gif02.gif);
+  }
+  .index03 .main_content_block03_box__img {
+    background-image: url(../img/imdexs_img/gif03.gif);
+  }
+  .index04 .main_content_block03_box__img {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/fujinkodomo.gif);
+}
+  .index05 .main_content_block03_box__img {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/tatami-thumb-250x250-391.gif);
+}
+  .index06 .main_content_block03_box__img {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/tilehari-thumb-250x250-397.gif);
+}
+  .main_content_block03_box__content {
+    width: min(590rem, 590px);
+  }
+  .main_content_block03_box__content h2 {
+    font-size: 20px;
+    color: var(--cblue);
+    font-weight: bold;
+    position: relative;
+  }
+  .main_content_block03_box__content h2::after {
+    content: "けんちくだいく";
+    font-size: 14px;
+    color: var(--cblue);
+    margin-left: 10px;
+  }
+  .index04 .main_content_block03_box__content h2::after {
+    content: "ふじんこどもふくせいぞう";
+    font-size: 14px;
+    color: var(--cblue);
+    margin-left: 10px;
+  }
+  .index02 .main_content_block03_box__content h2::after {
+    content: "いんしょうちょうこく";
+  }
+  .index03 .main_content_block03_box__content h2::after {
+    content: "ふらわーそうしょく";
+  }
+  .index05 .main_content_block03_box__content h2::after {
+    content: "たたみせいさく";
+  }
+  .index06 .main_content_block03_box__content h2::after {
+    content: "タイルはり";
+  }
+  .main_content_block03_box__content p {
+    font-size: 14rem;
+    font-weight: 500;
+    color: #000;
+    line-height: 1.75;
+    margin-top: 20px;
+  }
+  .main_content_block03_text02 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .main_content_block03_text02 a {
+    margin-left: 10px;
+    font-size: 14px;
+    color: var(--cblue);
+  }
+  /* 技能士さんから「未来の匠たち」へ */
+  .index01 .main_content_block04 {
+    margin-top: 50px;
+  }
+  .main_content_block04 {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main_content_block04_img {
+    width: 230px;
+    height: 230px;
+    display: block;
+    margin: auto;
+    background-image: url(../img/imdexs_img/sensei@2x.jpg);
+    background-position: center left 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    border-radius: 100%;
+  }
+  .index02 .main_content_block04_img {
+    background-image: url(../img/indexs02/profe01.jpg);
+    background-color: #ddd;
+    border-radius: 100%;
+  }
+  .index03 .main_content_block04_img {
+    width: 380px;
+    background-image: url(../img/index03/sensei03.bmp);
+    background-color: #ddd;
+    background-position: top right;
+  }
+  .index04 .main_content_block04_img {
+    width: 380px;
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/会長と副会長-scaled.jpg);
+    background-color: #ddd;
+    background-position: top right;
+  }
+  .index05 .main_content_block04_img {
+    width: 380px;
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/Still0703_00010.bmp);
+    background-color: #ddd;
+    background-position: top right 28%;
+  }
+  .index06 .main_content_block04_img {
+    width: 380px;
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/Still0703_00009.bmp);
+    background-color: #ddd;
+    background-position: top right 28%;
+  }
+  .name_block {
+    display: flex;
+  }
+  .main_content_block04_name {
+    font-size: 14px;
+    line-height: 1.75;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .main_content_block04_name:first-child {
+    margin-right: 20px;
+  }
+  .main_content_block04_name:last-child {
+    margin-left: 20px;
+  }
+  .main_content_block04_box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: min(950rem, 1000px);
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .main_content_block04_box_content.ls {
+    line-height: 1.75;
+  }
+  .main_content_block04_box_content {
+    width: min(425rem, 425px);
+  }
+  .main_content_block04_box_content:nth-child(1) {
+    margin-top: 0;
+  }
+  .main_content_block04_box_content:nth-child(even) {
+    margin-top: 40rem;
+  }
+  .main_content_block04_box_content li:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--red03);
+    padding-bottom: 10px;
+    border-bottom: 1px dotted var(--red03);
+  }
+  .main_content_block04_box_content li:nth-child(2) {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.75;
+    text-align: left;
+    margin-top: 20px;
+    color: #000;
+  }
+  .main_content_block04_box_content.mmt,
+  .main_content_block04_box_content.ls.mmt {
+    margin-top: -50px;
+  }
+  .main_content_block04_box_content.ls.mt {
+    margin-top: 70px;
+  }
+}
+/* モバイル */
+@media (max-width: 799px) {
+  html {
+    font-size: calc(100vw / 375);
+  }
+  .video {
+    width: 335px !important;
+    height: 300px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 60rem;
+    background-color: #efe8d5;
+  }
+  header .header_box01 {
+    width: 122rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  header .header_box01 img {
+    width: 82rem;
+    height: 46rem;
+  }
+  header .header_box02 {
+    width: 253rem;
+    /* background-color: var(--cyellow); */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  header .header_box02 img {
+    width: 230rem;
+    height: 11rem;
+  }
+  header .header_box03 {
+    display: none;
+  }
+  .main_content_block01 {
+    position: relative;
+    padding-top: 50rem;
+    background-color: unset;
+  }
+  .main_content_block01::before {
+    content: "";
+    width: 100%;
+    padding-top: 265rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--red);
+  }
+  .index02 .main_content_block01::before {
+    background-color: var(--lgreen);
+  }
+  .index03 .main_content_block01::before {
+    background-color: var(--orange);
+  }
+  .main_content_block01 h2 {
+    font-size: 24rem;
+    font-weight: bold;
+    position: relative;
+    color: white;
+    width: 335rem;
+    margin: auto;
+    line-height: 1.75;
+  }
+  .main_content_block01 small {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 15rem;
+    text-align: center;
+    position: relative;
+    display: block;
+  }
+  .main_content_block01_img {
+    margin: auto;
+    margin-top: 50rem;
+    width: 335rem;
+    height: 208rem;
+    position: relative;
+    background-image: url(../img/imdexs_img/img01@2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .index02 .main_content_block01_img {
+    background-image: url(https://saitama-vada.jp/wp-content/themes/trialclass/img/experience_02.jpg);
+    background-color: #ddd;
+  }
+  .index03 .main_content_block01_img {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/experience_03.jpeg);
+    background-color: #ddd;
+  }
+  .index04 .main_content_block01_img {
+    background-image: url(https://tucode08.com/mono/wp-content/themes/trialclass/img/img02/experience_04.jpg);
+  }
+  .index05 .main_content_block01_img {
+    background-image: url(https://tucode08.com/mono/wp-content/themes/trialclass/img/img02/experience_05.jpg);
+  }
+  .index06 .main_content_block01_img {
+    background-image: url(https://saitama-vada.jp/wp-content/themes/trialclass/img/img02/experience_06.jpg);
+  }
+  .main_content_block_title.c-b::after {
+    background-color: var(--cblue);
+  }
+  .main_content_block_title.c-o::after {
+    background-color: var(--orange);
+  }
+  .main_content_block_title.c-y::after {
+    background-color: var(--cyellow);
+  }
+  .main_content_block_title.c-y {
+    color: #000;
+  }
+  /* block2-2 */
+  .main_content_block02-2 {
+    margin-top: 50rem;
+  }
+  .main_content_block02-2_box {
+    width: 335rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+    padding: 50px 0;
+  }
+  .main_content_block02-2_box__img {
+    width: 335rem;
+    height: 226rem;
+    background-image: url(../img/imdexs_img/img02@2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .index02 .main_content_block02-2_box__img {
+    background-image: url(../img/indexs02/index02.JPG);
+    background-color: #ddd;
+  }
+  .index03 .main_content_block02-2_box__img {
+    background-image: url(../img/index03/second/img01.jpg);
+    /* background-image: url(../img/index03/index03.jpg); */
+    background-color: #ddd;
+  }
+  .index04 .main_content_block02-2_box__img {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/058C1025-scaled.jpg);
+  }
+  .index05 .main_content_block02-2_box__img {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/058C1093-scaled.jpg);
+    background-color: #ddd;
+  }
+  .index06 .main_content_block02-2_box__img {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/058C1068-scaled.jpg);
+    background-color: #ddd;
+  }
+  .main_content_block02-2_box_list {
+    width: 335rem;
+  }
+  .main_content_block02-2_box_list li {
+    border-bottom: 1px dotted #000;
+    /* height: 54rem;
+    line-height: 54rem; */
+    padding: 15rem 0;
+    font-size: 16rem;
+    font-weight: 500;
+  }
+  .index03 .main_content_block02-2_box_list li {
+    font-size: 13rem;
+  }
+  .main_content_block03-2 ul {
+    width: 335rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0 50px;
+  }
+  .main_content_block03-2 ul li {
+    display: block;
+    border: 1px solid #000;
+    padding: 6rem 19rem;
+    font-size: 18rem;
+    margin-top: 20rem;
+  }
+  .index01 .main_content_block03-2 ul li:last-child {
+    margin-top: 10px;
+  }
+  .main_content_block03-2 ul li:last-child {
+    line-height: 1.75;
+  }
+  .main_content_block02_caution {
+    width: 335rem;
+    margin: auto;
+    margin-bottom: 20rem;
+    border: 1px solid #000;
+    padding: 10rem 32rem 20rem;
+    margin-top: 40rem;
+  }
+  .main_content_block02_caution ul li {
+    font-size: 10rem;
+  }
+  .main_content_block02_caution img {
+    width: 54rem;
+    height: 44rem;
+    display: block;
+    margin: auto;
+  }
+  .main_content_block02_caution_p {
+    text-align: center;
+    font-size: 18rem;
+    font-weight: bold;
+    margin-top: 10rem;
+  }
+  .main_content_block02_caution_p02 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    color: #000;
+    line-height: 1.75;
+  }
+  /* 技能士の職種紹介 */
+  .main_content_block03 {
+    padding-bottom: 50rem;
+  }
+  .main_content_block03_text {
+    width: 335rem;
+    font-size: 14rem;
+    font-weight: 500;
+    text-align: left;
+    margin: auto;
+    margin-top: 50rem;
+    margin-bottom: 30rem;
+    line-height: 1.75;
+  }
+  .main_content_block03_box {
+    background-color: #f4f4f4;
+    width: 335rem;
+    padding: 30rem 20rem 20rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .main_content_block03_box__img {
+    background-image: url(../img/imdexs_img/gif01.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 295rem;
+    height: 250rem;
+    background-color: #fff;
+  }
+  .index02 .main_content_block03_box__img {
+    background-image: url(../img/imdexs_img/gif02.gif);
+  }
+  .index03 .main_content_block03_box__img {
+    background-image: url(../img/imdexs_img/gif03.gif);
+  }
+  .index04 .main_content_block03_box__img {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/fujinkodomo.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 295rem;
+    height: 250rem;
+    background-color: #fff;
+}
+  .index05 .main_content_block03_box__img {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/tatami-thumb-250x250-391.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 295rem;
+    height: 250rem;
+    background-color: #fff;
+}
+  .index06 .main_content_block03_box__img {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/tilehari-thumb-250x250-397.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 295rem;
+    height: 250rem;
+    background-color: #fff;
+}
+  .main_content_block03_box__content {
+    width: 335rem;
+  }
+  .main_content_block03_box__content h2 {
+    font-size: 20rem;
+    color: var(--cblue);
+    font-weight: bold;
+    position: relative;
+    margin-top: 20rem;
+  }
+  .main_content_block03_box__content h2::after {
+    content: "けんちくだいく";
+    font-size: 14rem;
+    color: var(--cblue);
+    position: absolute;
+    bottom: -24rem;
+    left: 0;
+  }
+  .index02 .main_content_block03_box__content h2::after {
+    content: "いんしょうちょうこく";
+  }
+  .index03 .main_content_block03_box__content h2::after {
+    content: "ふらわーそうしょく";
+  }
+  .index04 .main_content_block03_box__content h2::after {
+    content: "ふじんこどもふくせいぞう";
+  }
+  .index05 .main_content_block03_box__content h2::after {
+    content: "たたみせいさく";
+  }
+  .main_content_block03_box__content p {
+    font-size: 14rem;
+    font-weight: 500;
+    color: #000;
+    line-height: 1.75;
+    margin-top: 44rem;
+    width: 295rem;
+  }
+  .main_content_block03_text02 {
+    font-size: 14rem;
+    font-weight: 500;
+    margin: auto;
+    margin-top: 34rem;
+    text-align: left;
+    width: 335rem;
+    line-height: 1.75;
+    /* display: flex;
+    flex-direction: column; */
+  }
+  .main_content_block03_text02 a {
+    font-size: 12rem;
+    color: var(--cblue);
+  }
+  /* 技能士さんから「未来の匠たち」へ */
+  .main_content_block04 {
+    padding-bottom: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main_content_block04_img {
+    width: 230rem;
+    height: 230rem;
+    display: block;
+    margin: auto;
+    background-image: url(../img/imdexs_img/sensei@2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50rem;
+  }
+  .index02 .main_content_block04_img {
+    background-image: url(../img/indexs02/profe01.jpg);
+    background-color: #ddd;
+    border-radius: 100%;
+  }
+  .index03 .main_content_block04_img {
+    width: 89%;
+    background-image: url(../img/index03/sensei03.bmp);
+    background-color: #ddd;
+    background-position: top right 28%;
+  }
+  .index04 .main_content_block04_img {
+    width: 89%;
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/会長と副会長-scaled.jpg);
+    background-color: #ddd;
+    background-position: top right 28%;
+  }
+  .index05 .main_content_block04_img {
+    width: 89%;
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/Still0703_00010.bmp);
+    background-color: #ddd;
+    background-position: top right 28%;
+  }
+  .index06 .main_content_block04_img {
+    width: 89%;
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/Still0703_00009.bmp);
+    background-color: #ddd;
+    background-position: top right 28%;
+  }
+  .main_content_block04_name {
+    font-size: 14rem;
+    line-height: 1.75;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20rem;
+  }
+  .main_content_block04_box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 335rem;
+    margin-top: 30rem;
+  }
+  .main_content_block04_box_content {
+    width: 335rem;
+    margin-top: 50rem;
+  }
+  .main_content_block04_box_content:last-child {
+    display: none;
+  }
+  .main_content_block04_box_content:nth-child(1) {
+    margin-top: 0;
+  }
+  .main_content_block04_box_content li {
+    line-height: 1.75;
+  }
+  .main_content_block04_box_content li:nth-child(1) {
+    font-size: 20rem;
+    font-weight: bold;
+    color: var(--red03);
+    padding-bottom: 10rem;
+    border-bottom: 1px dotted var(--red03);
+  }
+  .main_content_block04_box_content li:nth-child(2) {
+    font-size: 14rem;
+    font-weight: 500;
+    line-height: 1.75;
+    text-align: left;
+    margin-top: 20rem;
+    color: #000;
+  }
+  /* 共通部分　制作手順 */
+  .main_content_block02_flex {
+    width: 335rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30rem;
+  }
+  .main_content_block02_flex li {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .main_content_block02_flex li:first-child {
+    margin-top: 0;
+  }
+  .main_content_block02_flex li::before {
+    content: "";
+    position: absolute;
+    bottom: 10rem;
+    transform: rotate(90deg) translateX(-50%);
+    width: 20rem;
+    height: 22rem;
+    background-image: url(../img/item01.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main_content_block02_flex li:last-child::before {
+    display: none;
+  }
+
+  .main_content_block02_img {
+    width: 100%;
+    height: 207rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .main_content_block02_img.n01 {
+    background-image: url(../img/imdexs_img/img02@2x.jpg);
+  }
+  .main_content_block02_img.n02 {
+    background-image: url(../img/imdexs_img/img03@2x.jpg);
+  }
+  .main_content_block02_img.n03 {
+    background-image: url(../img/imdexs_img/text01img04@2x.jpg);
+  }
+  .main_content_block02_img.n04 {
+    background-image: url(../img/imdexs_img/n-img04.jpg);
+  }
+  .main_content_block02_img.n05 {
+    background-image: url(../img/imdexs_img/img05@2x.jpg);
+    background-position: top;
+  }
+  .main_content_block02_img.n06 {
+    background-image: url(../img/imdexs_img/img06@2x.jpg);
+  }
+  .main_content_block02_img.n07 {
+    background-image: url(../img/imdexs_img/img07@2x.jpg);
+  }
+  .main_content_block02_img.n08 {
+    background-image: url(../img/imdexs_img/n-img08.jpg);
+  }
+  .main_content_block02_img.n09 {
+    background-image: url(../img/imdexs_img/img10@2x.jpg);
+  }
+  /* index02 */
+  .index02 .main_content_block02_img.n2-01 {
+    background-image: url(../img/indexs02/index02.JPG);
+  }
+  .index02 .main_content_block02_img.n2-02 {
+    background-image: url(../img/indexs02/img01.jpg);
+  }
+  .index02 .main_content_block02_img.n2-03 {
+    background-image: url(../img/indexs02/img02.jpg);
+  }
+  .index02 .main_content_block02_img.n2-04 {
+    background-image: url(../img/n-img04.jpg);
+  }
+  .index02 .main_content_block02_img.n2-05 {
+    background-image: url(../img/indexs02/img03.jpg);
+  }
+  .index02 .main_content_block02_img.n2-06 {
+    background-image: url(../img/indexs02/img04.jpg);
+  }
+  .index02 .main_content_block02_img.n2-07 {
+    background-image: url(../img/indexs02/img06.JPG);
+  }
+  .index02 .main_content_block02_img.n2-08 {
+    background-image: url(../img/indexs02/img07.JPG);
+  }
+  .index02 .main_content_block02_img.n2-09 {
+    background-image: url(../img/indexs02/img08.JPG);
+  }
+  /* index03 */
+  .index03 .main_content_block02_img.n3-01 {
+     /*background-image: url(../img/index03/second/img01.jpg);
+    background-image: url(../img/index03/index03.jpg); */
+  }
+  .index03 .main_content_block02_img.n3-02 {
+    background-image: url(../img/index03/img01.jpg);
+  }
+  .index03 .main_content_block02_img.n3-03 {
+    background-image: url(../img/index03/img02.jpg);
+  }
+  .index03 .main_content_block02_img.n3-04 {
+    background-image: url(../img/index03/img03.jpg);
+  }
+  .index03 .main_content_block02_img.n3-05 {
+    background-image: url(../img/index03/img04.jpg);
+  }
+  .index03 .main_content_block02_img.n3-06 {
+    background-image: url(../img/index03/img05.jpg);
+  }
+  .index03 .main_content_block02_img.n3-07 {
+    background-image: url(../img/index03/img06.jpg);
+  }
+  .index03 .main_content_block02_img.n3-08 {
+    background-image: url(../img/index03/img07.jpg);
+  }
+  .index03 .main_content_block02_img.n3-09 {
+    background-image: url(../img/index03/img08.jpg);
+  }
+  /* index04 */
+  .index04 .main_content_block02_img.n01 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/1.シール貼る.bmp);
+  }
+  .index04 .main_content_block02_img.n02 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/2.切る.bmp);
+  }
+  .index04 .main_content_block02_img.n03 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/3.ミシンで縫う.bmp);
+  }
+  .index04 .main_content_block02_img.n04 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/4.縫ったひもを本体に縫い付け.bmp);
+  }
+  .index04 .main_content_block02_img.n05 {
+      background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/5-3.bmp);
+}
+.index04 .main_content_block02_img.n06 {
+      background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/6.アイロンをかける.bmp);
+  }
+  .index04 .main_content_block02_img.n07 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/7.２枚を合わせる.bmp);
+  }
+  .index04 .main_content_block02_img.n08 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/8.折り倒してアイロンかける.bmp);
+  }
+  .index04 .main_content_block02_img.n09 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/9.左右をミシンで縫う.bmp);
+  }
+  .index04 .main_content_block02_img.n10 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/10.bmp);
+  }
+  .index04 .main_content_block02_img.n11 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/11.ひっくり返す.bmp);
+  }
+  .index04 .main_content_block02_img.n12 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/12.クリップつける.bmp);
+  }
+  /* index05 */
+  .index05 .main_content_block02_img.n2-01 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/1.刺し縫い.bmp);
+    background-color: #ddd;
+  }
+  .index05 .main_content_block02_img.n2-02 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/2.止める.bmp);
+    background-color: #ddd;
+  }
+  .index05 .main_content_block02_img.n2-03 {
+      background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/4.へりを固定.bmp);
+      background-color: #ddd;
+    }
+    .index05 .main_content_block02_img.n2-04 {
+      background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/3.糸をつなぐ.bmp);
+    background-color: #ddd;
+  }
+  .index05 .main_content_block02_img.n2-05 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/5.返し縫.bmp);
+    background-color: #ddd;
+  }
+  .index05 .main_content_block02_img.n2-06 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/6両面テープを貼って折り返す.bmp);
+    background-color: #ddd;
+  }
+  .index05 .main_content_block02_img.n2-07 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/7.針で角をきれいにする.bmp);
+    background-color: #ddd;
+  }
+  .index05 .main_content_block02_img.n2-08 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/8.滑り止めを貼る.bmp);
+    background-color: #ddd;
+  }
+  .index05 .main_content_block02_img.n2-09 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/9.完成.bmp);
+    background-color: #ddd;
+  }
+  /* index06 */
+  .index06 .main_content_block02_img.n3-01 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/1.デザインを考えて並べる.bmp);
+    background-color: #ddd;
+  }
+  .index06 .main_content_block02_img.n3-02 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/2.置き紙の上に置く.bmp);
+    background-color: #ddd;
+  }
+  .index06 .main_content_block02_img.n3-03 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/3.両面テープをはがして置く.bmp);
+    background-color: #ddd;
+  }
+  .index06 .main_content_block02_img.n3-04 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/4.セメントを混ぜる.bmp);
+    background-color: #ddd;
+  }
+  .index06 .main_content_block02_img.n3-05 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/5.固さ調節.bmp);
+    background-color: #ddd;
+  }
+  .index06 .main_content_block02_img.n3-06 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/6.タイルのすきまにいれる.bmp);
+    background-color: #ddd;
+  }
+  .index06 .main_content_block02_img.n3-07 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/7.スポンジでふきとる.bmp);
+    background-color: #ddd;
+  }
+  .index06 .main_content_block02_img.n3-08 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/8.タオルなどで拭く.bmp);
+    background-color: #ddd;
+  }
+  .index06 .main_content_block02_img.n3-09 {
+    background-image: url(http://tucode08.com/mono/wp-content/uploads/2022/07/9.完成-1-scaled.jpg);
+    background-color: #ddd;
+  }
+
+  .main_content_block02_img::before {
+    display: none;
+  }
+  .main_content_block02_flex li p {
+    width: 100%;
+    margin-top: 20rem;
+    line-height: 2;
+    font-size: 14rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 60rem;
+  }
+
+  .form_btn {
+    font-size: 16px;
+    margin: auto;
+  }
+}
+
+/* fotter */
+/* =============================== footer ======================== */
+.footer {
+  display: flex;
+  font-weight: 400;
+}
+.ly_footer_left {
+  width: 50%;
+  padding: 50px 4%;
+  background-color: #ffff00;
+}
+.bl_footer_title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #1aadec;
+}
+.bl_footer_info {
+  margin-bottom: 24px;
+}
+.bl_footer_info p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+}
+.bl_footer_address {
+  font-size: 14px;
+}
+.ly_footer_right {
+  width: 50%;
+  padding: 50px 4%;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ly_footer_right_top {
+}
+.bl_footer_desc {
+  margin-bottom: 20px;
+  line-height: 1.75;
+}
+.ly_footer_right dl {
+}
+.ly_footer_right dl div {
+  display: flex;
+  height: 25px;
+}
+.footer .ly_footer_right dl div:nth-child(1) {
+  margin-bottom: 15px;
+}
+.ly_footer_right dt {
+  margin-right: 14px;
+  min-width: 30px;
+  font-weight: 400;
+}
+.ly_footer_right dd {
+  font-weight: 700;
+}
+.bl_copyright {
+}
+/* btn */
+.bl_pagetop {
+  position: fixed;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 54px;
+  height: 54px;
+  right: 20px;
+  bottom: 45px;
+  z-index: 10;
+  background-color: var(--red02);
+}
+.bl_pagetop::before {
+  position: absolute;
+  content: "";
+  background-image: url(../img/arrow_pagetop.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 22px;
+  height: 11px;
+}
+@media screen and (max-width: 769px) {
+  /* =============================== footer ======================== */
+  .footer {
+    flex-direction: column;
+  }
+  .ly_footer_left {
+    width: 100%;
+    padding: 50px 5%;
+  }
+  .bl_footer_info {
+    font-size: 16px;
+  }
+  .ly_footer_right {
+    width: 100%;
+    padding: 50px 5%;
+  }
+  .ly_footer_right_top {
+    margin-bottom: 50px;
+  }
+  .bl_footer_desc {
+    margin-top: 30px;
+  }
+  .ly_footer_right dl div {
+    flex-direction: column;
+    height: auto;
+  }
+  .ly_footer_right dl div:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .ly_footer_right dt {
+    margin-bottom: 6px;
+    margin-right: 0;
+    font-weight: 400;
+  }
+}
