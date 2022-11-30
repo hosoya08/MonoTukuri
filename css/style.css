@@ -697,9 +697,10 @@ TOP Page
   height: 100%;
   background-color: #fff;
   padding: 0 4.5% 50px;
-  margin-top: 55px;
+  /* margin-top: 55px; */
   z-index: 1;
   padding-bottom: 0;
+  padding-top: 55px;
 }
 .bl_EC_title{
   font-size: 28px;

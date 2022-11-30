@@ -177,7 +177,7 @@
                             <div class="bl_experience_content">
                                 <div class="ly_EC_top">
                                     <figure class="bl_EC_figure"><img
-                                            src="<?php echo get_template_directory_uri(); ?>/img/experience_01.jpg"
+                                            src="<?php echo get_template_directory_uri(); ?>/img/bag_img.png"
                                             alt=""></figure>
                                     <div class="bl_EC_body">
                                         <div class="bl_EC_body_inner">
@@ -273,7 +273,7 @@
                             <div class="bl_experience_content">
                                 <div class="ly_EC_top">
                                     <figure class="bl_EC_figure"><img
-                                            src="<?php echo get_template_directory_uri(); ?>/img/experience_03.jpg"
+                                            src="<?php echo get_template_directory_uri(); ?>/img/flower_img.png"
                                             alt="">
                                         <!-- <p>※体験キットは1つです</p> -->
                                     </figure>
@@ -326,7 +326,7 @@
                             <div class="bl_experience_content">
                                 <div class="ly_EC_top">
                                     <figure class="bl_EC_figure"><img
-                                            src="<?php echo get_template_directory_uri(); ?>/img/img02/experience_04.jpg"
+                                            src="<?php echo get_template_directory_uri(); ?>/img/experience_01.jpg"
                                             alt=""></figure>
                                     <div class="bl_EC_body">
                                         <div class="bl_EC_body_inner">
@@ -377,7 +377,7 @@
                             <div class="bl_experience_content">
                                 <div class="ly_EC_top">
                                     <figure class="bl_EC_figure"><img
-                                            src="<?php echo get_template_directory_uri(); ?>/img/img02/experience_05.jpg"
+                                            src="<?php echo get_template_directory_uri(); ?>/img/stanp_img.png"
                                             alt=""></figure>
                                     <div class="bl_EC_body">
                                         <div class="bl_EC_body_inner">
@@ -677,7 +677,7 @@
 
                 <div>カルタスホール会議室</div>
                 <p>さいたま市浦和区北浦和1-7-1　<br class="sp">北浦和ターミナルビル3階</p>
-                <a href="">
+                <a href="https://goo.gl/maps/7jup49pMBs2Cvp73A">
                     詳細地図はこちら
                     <svg xmlns="http://www.w3.org/2000/svg" width="19.64" height="19.64" viewBox="0 0 19.64 19.64">
                         <g id="グループ_340" data-name="グループ 340" transform="translate(-715.68 -6683.68)">
