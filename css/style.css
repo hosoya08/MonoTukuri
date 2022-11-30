@@ -460,9 +460,10 @@ TOP Page
   border-style: solid;
   border-width: 24px 22.5px 0 22.5px;
   border-color: #fff transparent transparent transparent;
-  bottom: -24px;
+  bottom: -23px;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 5;
 }
 .bl_sepArrow_text{
   text-align: center;
@@ -476,7 +477,8 @@ TOP Page
   display: flex;
   flex-wrap: wrap;
   gap: 36px;
-  width: 1120px;
+  /* width: 1120px; */
+  margin: 0 auto;
 }
 .bl_application_item{
   position: relative;
@@ -508,7 +510,7 @@ TOP Page
   height: 6.2%;
   top: 50%;
   transform: translateY(-50%);
-  left: -6.5%;
+  left: -20px;
 }
 
 .bl_application_item_title{
@@ -1191,9 +1193,10 @@ TOP Page
   .bl_application_item{
     width: 68%;
     margin-right: 0;
+    height: auto;
   }
   .bl_application_item:not(:last-child){
-    margin-bottom: 36px;
+    /* margin-bottom: 36px; */
   }
   .bl_application_item:not(:first-child)::before{
     background-image: url(../img/arrow_yellow_bottom.svg);
@@ -1204,11 +1207,26 @@ TOP Page
     transform: translate(-50%, 0);
     right: inherit;
   }
+  .bl_application_item_num {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
   .bl_application_item_title{
+    margin-bottom: 0;
+    order: 1;
+  }
+  .bl_application_item_month-box {
+    order: 2;
+    margin-top: 5px;
     margin-bottom: 0;
   }
   .bl_application_item_body{
     margin-top: 20px;
+    width: 95%;
+  }
+  .bl_application_item_body.w100 p {
+    margin-top: 0;
   }
   .bl_application_item_body dl{
     line-height: 1.5;
@@ -1300,6 +1318,27 @@ TOP Page
     width: 10px;
     height: 10px;
     right: 28px;
+  }
+  .bl_application_item_body.w100 table {
+    width: 100%;
+  }
+  .bl_application_item_body.w100 table tr:nth-child(1) {
+    height: 34px;
+    width: 100%;
+  }
+  .flex_part {
+    display: flex;
+    flex-direction: column;
+  }
+  .bl_application_item_body tr {
+    border: none;
+  }
+  .bl_application_item_body tr th {
+    text-align: center;
+    line-height: 34px;
+  }
+  .bl_application_item:nth-of-type(4) {
+    padding: 20px;
   }
   /* =============================== modal ======================== */
   .bl_modal_content{

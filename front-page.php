@@ -118,7 +118,7 @@
                             <dl>
                                 <div>
                                     <dt>募集期間</dt>
-                                    <dd>12月9日（金）〜18日（日）17:00まで</dd>
+                                    <dd>12月9日（金）〜<br class="sp">18日（日）17:00まで</dd>
                                 </div>
                             </dl>
                         </div>
@@ -130,12 +130,12 @@
                                 alt="2"></div>
                         <div class="bl_application_item_month-box">12月下旬</div>
                         <div class="bl_application_item_body w100">
-                            <p>こちらのサイト内で、参加決定者の番号を公表します。<br>
-                                後日、決定者にはメールでご連絡もいたします</p>
+                            <p>こちらのサイト内で、<br class="sp">参加決定者の番号を公表します。<br>
+                                後日、決定者にはメールで<br class="sp">ご連絡もいたします</p>
                         </div>
                     </li>
                     <li class="bl_application_item">
-                        <h3 class="bl_application_item_title hp_DFandcenter">会場に参加して、ものづくりを体験</h3>
+                        <h3 class="bl_application_item_title hp_DFandcenter">会場に参加して、<br class="sp">ものづくりを体験</h3>
                         <div class="bl_application_item_num"><img
                                 src="<?php echo get_template_directory_uri(); ?>/img/application_item_num_03.svg"
                                 alt="3"></div>
@@ -144,7 +144,7 @@
                                 <tr>
                                     <th colspan="2">開催日</th>
                                 </tr>
-                                <tr>
+                                <tr class="flex_part">
                                     <td>2023年1月14日（土）</td>
                                     <td>2023年1月28日（土）</td>
                                 </tr>
@@ -153,7 +153,7 @@
                         </div>
                     </li>
                     <li class="bl_application_item">
-                        <h3 class="bl_application_item_title">体験が終わったら、<br>会場でアンケートにお答えください</h3>
+                        <h3 class="bl_application_item_title">体験が終わったら、<br>会場でアンケートに<br class="sp">お答えください</h3>
                         <div class="bl_application_item_num"><img
                                 src="<?php echo get_template_directory_uri(); ?>/img/application_item_num_04.svg"
                                 alt="4"></div>
