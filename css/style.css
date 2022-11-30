@@ -824,7 +824,40 @@ TOP Page
   background-color: var(--blue);
 }
 .ly_cta_inner{
-  padding: 100px 0 105px;
+  padding: 100px 0 50px;
+}
+.ly_cta_inner_map {
+  max-width: 1120px;
+  width: 90%;
+  height: 450px;
+  margin: 0 auto;
+  display: block;
+}
+.ly_cta_inner div {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+.ly_cta_inner p {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 400;
+}
+.ly_cta_inner a {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ly_cta_inner svg {
+  margin-left: 5px;
 }
 .cta .el_btn{
   position: relative;
@@ -1128,7 +1161,9 @@ TOP Page
    {
     margin-left: 0;
   }
-
+  .ly_cta_inner_map {
+    width: 90%;
+  }
   .bl_news_list{
     padding-right: 0;
   }

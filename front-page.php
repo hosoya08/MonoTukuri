@@ -665,45 +665,44 @@
         ?>
         <section class="cta">
             <div class="ly_sepArrow">
-                <!-- 2022/07/05から2022/08/29までセクションタイトル「申込フォーム」それ以降「アンケート」-->
-                <?php if ($day > '20220705090000' && $day < '20220829090000'): ?>
-                <h2 class="bl_sepArrow_text hp_blue">申込フォーム</h2>
-                <?php else: ?>
-                <h2 class="bl_sepArrow_text hp_blue">アンケート</h2>
-                <?php endif; ?>
+                <h2 class="bl_sepArrow_text hp_blue">会場ご案内</h2>
             </div>
 
 
-            <!-- 2022-07-05-09時から2022-07-18-16時59分58秒まで応募期間 -->
-            <?php if ($day > '20220705090000' && $day < '20220718165958'): ?>
             <div class="ly_cta_inner">
-                <a href="http://saitama-vada.sakura.ne.jp/form/con.php" class="el_btn el_btn_arrow ">参加申込はコチラから</a>
-                <!-- 2022-07-18-17時から2022-08-29-08時59分58秒は応募終了期間 -->
-                <?php elseif ($day > '20220718170000' && $day < '20220810090000'): ?>
-                <div class="ly_cta_inner">
-                    <a href="" class="el_btn el_btn_arrow disabled ">参加申込は終了しました。</a>
-                    <div class="disabled_overlay"><span>参加申込受付は<br class="sp">終了いたしました。</span></div>
-                    <!-- 2022-08-29-09時からアンケート開始 -->
-                    <?php elseif ($day > '20220810090000'): ?>
-                    <div class="ly_cta_inner">
-                        <a href="http://saitama-vada.sakura.ne.jp/form/questionnaire.php"
-                            class="el_btn el_btn_arrow">アンケートにご協力下さい</a>
-                        <!-- それ以外は開始前と判断し、お待ち下さいのメッセージ -->
-                        <?php else: ?>
-                        <div class="ly_cta_inner">
-                            <a href="http://saitama-vada.sakura.ne.jp/form/con.php"
-                                class="el_btn el_btn_arrow disabled">参加申込はコチラから</a>
-                            <div class="disabled_overlay"><span>参加申込受付は<br
-                                        class="sp">7月5日9時からになります。<br>もうしばらくお待ちください。</span></div>
-                            <?php endif; ?>
-                        </div>
+                <iframe class="ly_cta_inner_map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.997987286961!2d139.64544371568837!3d35.87356618014991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c1cba0d043e7%3A0x696448cfb09eb3f2!2z44CSMzMwLTAwNzQg5Z-8546J55yM44GV44GE44Gf44G-5biC5rWm5ZKM5Yy65YyX5rWm5ZKM77yR5LiB55uu77yX4oiS77yRIOWMl-a1puWSjOOCv-ODvOODn-ODiuODq-ODk-ODqyAz6ZqO!5e0!3m2!1sja!2sjp!4v1669773227772!5m2!1sja!2sjp"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <div>カルタスホール会議室</div>
+                <p>さいたま市浦和区北浦和1-7-1　<br class="sp">北浦和ターミナルビル3階</p>
+                <a href="">
+                    詳細地図はこちら
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19.64" height="19.64" viewBox="0 0 19.64 19.64">
+                        <g id="グループ_340" data-name="グループ 340" transform="translate(-715.68 -6683.68)">
+                            <g id="パス_711" data-name="パス 711" transform="translate(735.32 6683.68) rotate(90)"
+                                fill="none">
+                                <path d="M9.82,0A9.82,9.82,0,1,1,0,9.82,9.82,9.82,0,0,1,9.82,0Z" stroke="none" />
+                                <path
+                                    d="M 9.81982421875 1.000003814697266 C 4.956554412841797 1.000003814697266 1.000003814697266 4.956554412841797 1.000003814697266 9.81982421875 C 1.000003814697266 14.6830940246582 4.956554412841797 18.63964462280273 9.81982421875 18.63964462280273 C 14.6830940246582 18.63964462280273 18.63964462280273 14.6830940246582 18.63964462280273 9.81982421875 C 18.63964462280273 4.956554412841797 14.6830940246582 1.000003814697266 9.81982421875 1.000003814697266 M 9.81982421875 3.814697265625e-06 C 15.2431640625 3.814697265625e-06 19.63964462280273 4.396484375 19.63964462280273 9.81982421875 C 19.63964462280273 15.2431640625 15.2431640625 19.63964462280273 9.81982421875 19.63964462280273 C 4.396484375 19.63964462280273 3.814697265625e-06 15.2431640625 3.814697265625e-06 9.81982421875 C 3.814697265625e-06 4.396484375 4.396484375 3.814697265625e-06 9.81982421875 3.814697265625e-06 Z"
+                                    stroke="none" fill="#fff" />
+                            </g>
+                            <path id="パス_395" data-name="パス 395" d="M0,3.138,3.139,0,6.277,3.138"
+                                transform="translate(726.956 6690.341) rotate(90)" fill="none" stroke="#fff"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+                        </g>
+                    </svg>
+
+                </a>
+
+            </div>
         </section>
         <!-- /.cta -->
 
     </main>
 
     <?php get_template_part('includes/footer'); ?>
-
     <?php get_footer(); ?>
 </body>
 
