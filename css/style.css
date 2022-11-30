@@ -651,8 +651,9 @@ TOP Page
 }
 .bl_EC_figure{
   position: relative;
-  width: 45%;
+  width: 50%;
   background-color: #c7c7c7;
+  margin: 0;
 }
 .bl_EC_figure img{
   width: 100%;
@@ -696,6 +697,7 @@ TOP Page
   padding: 0 4.5% 50px;
   margin-top: 55px;
   z-index: 1;
+  padding-bottom: 0;
 }
 .bl_EC_title{
   font-size: 28px;
@@ -705,6 +707,23 @@ TOP Page
 .bl_EC_title rt{
   font-size: 12px;
   font-weight: 400;
+}
+.bl_EC_Dayt {
+  font-size: 28px;
+  font-weight: bold;
+}
+.bl_EC_Dayt_Detail {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.orange {
+  color: var(--red);
+}
+.green {
+  color: var(--blue-second);
+}
+.yellow {
+  color: var(--orange);
 }
 .bl_EC_company{
   font-size: 14px;
@@ -731,6 +750,28 @@ TOP Page
   width: 48%;
   text-align: center;
   padding: 6px 4px;
+}
+.bl_EC_object {
+  display: flex;
+  margin-bottom: 20px;
+}
+.bl_EC_object p,
+.bl_EC_object span
+{
+  font-weight: bold;
+  display: block;
+  font-size: 18px;
+}
+.bl_EC_object.other p{
+  margin-top: 5px;
+}
+.bl_EC_object div{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+.bl_EC_object span:nth-child(2) {
+  margin-left: 10px;
 }
 .bl_EC_desc{
   font-weight: 400;
@@ -1079,6 +1120,15 @@ TOP Page
   /* ========================================
   TOP Page
   ============================================ */
+  .bl_EC_object {
+    flex-direction: column;
+  }
+  .bl_EC_object span:nth-child(2),
+  .bl_EC_object div
+   {
+    margin-left: 0;
+  }
+
   .bl_news_list{
     padding-right: 0;
   }

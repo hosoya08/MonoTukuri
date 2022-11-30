@@ -181,23 +181,24 @@
                                             alt=""></figure>
                                     <div class="bl_EC_body">
                                         <div class="bl_EC_body_inner">
-                                                                                       <h3 class="bl_EC_title hp_red">
-                                                「小さい木のイス」を作ろう！</h3>
-                                            <p class="bl_EC_company hp_red">埼玉土建技能士会</p>
+                                            <h3 class="bl_EC_title hp_red">
+                                                「トートバック」をつくって<br>
+                                                お出かけしよう！</h3>
+                                            <p class="bl_EC_company">埼玉県洋裁技能士会、埼玉県洋裁技能協会</p>
+
+                                            <h4 class="bl_EC_Dayt orange">1月14日（土）</h4>
+                                            <div class="bl_EC_Dayt_Detail orange">
+                                                午前の部　10:30〜12:00（15名）<br>
+                                                午後の部　13:30〜 15:00（15名）
+                                            </div>
+
                                             <div class="bl_EC_capacity">
                                                 <dl class="hp_border_red">
                                                     <dt class="hp_bg_red">定員</dt>
                                                     <dd class="hp_red">30名</dd>
                                                 </dl>
                                             </div>
-                                            <p class="bl_EC_desc">実際に座れて、小物置きとしても使えるイスに挑戦！</p>
-                                            <div class="bl_EC_btnWrap">
-                                                <a href="<?php echo get_page_link(15); ?>"
-                                                    class="el_btn el_btn_arrow hp_bg_blue ">体験ガイド</a>
-                                                <a href="https://www.youtube.com/watch?v=vVbweAyRdHQ"
-                                                    class="el_btn el_btn_arrow hp_bg_secondblue">体験コース動画</a>
-                                                <!-- <a style="opacity: 0.4; color:white;" class="el_btn el_btn_arrow hp_bg_secondblue">体験コース動画</a> -->
-                                            </div>
+                                            <p class="bl_EC_desc">ミシンやアイロンを使って、手づくりトートバックに挑戦！</p>
                                         </div>
                                     </div>
                                 </div>
@@ -221,26 +222,34 @@
                             <div class="bl_experience_content">
                                 <div class="ly_EC_top">
                                     <figure class="bl_EC_figure"><img
-                                            src="<?php echo get_template_directory_uri(); ?>/img/experience_02.jpg"
+                                            src="<?php echo get_template_directory_uri(); ?>/img/img02/experience_05.jpg"
                                             alt=""></figure>
                                     <div class="bl_EC_body">
                                         <div class="bl_EC_body_inner">
-                                            <h3 class="bl_EC_title hp_secondblue">「消しゴムはんこ」で<br>身近な人に手紙を送ろう！</h3>
-                                            <p class="bl_EC_company hp_secondblue">埼玉県印章彫刻技能士会</p>
+                                            <h3 class="bl_EC_title hp_secondblue">「置き<ruby>畳<rt>だたみ</rt>
+                                                </ruby>」で<span class="up_text-kaza">飾</span>ってみよう！</h3>
+                                            <p class="bl_EC_company">埼玉県畳技能士会</p>
+
+                                            <h4 class="bl_EC_Dayt green">1月14日（土）</h4>
+                                            <div class="bl_EC_Dayt_Detail green">
+                                                午前の部　10:30〜12:00（15名）<br>
+                                                午後の部　13:30〜 15:00（15名）
+                                            </div>
+
                                             <div class="bl_EC_capacity">
                                                 <dl class="hp_border_secondblue">
                                                     <dt class="hp_bg_secondblue">定員</dt>
                                                     <dd class="hp_secondblue">30名</dd>
                                                 </dl>
                                             </div>
-                                            <p class="bl_EC_desc">きれいに押せる消しゴムはんこの「技」習得に挑戦！</p>
-                                            <div class="bl_EC_btnWrap">
-                                                <a href="<?php echo get_page_link(17); ?>"
-                                                    class="el_btn el_btn_arrow hp_bg_orange">体験ガイド</a>
-                                                <a href="https://www.youtube.com/watch?v=RFARD90jdJo"
-                                                    class="el_btn el_btn_arrow hp_bg_red">体験コース動画</a>
-                                                <!-- <a style="opacity: 0.4; color:white;" class="el_btn el_btn_arrow hp_bg_red">体験コース動画</a> -->
+
+                                            <div class="bl_EC_object">
+                                                <p class="green">参加者が用意するもの</p>
+                                                <span>はさみ、</span>
+                                                <span>ホチキス</span>
                                             </div>
+
+                                            <p class="bl_EC_desc">針と糸を使っての手縫い作業で職人技に挑戦！</p>
                                         </div>
                                     </div>
                                 </div>
@@ -270,24 +279,28 @@
                                     </figure>
                                     <div class="bl_EC_body">
                                         <div class="bl_EC_body_inner">
-                                            <h3 class="bl_EC_title hp_orange">「フラワー<ruby>壁飾<rt>かべかざ</rt>
-                                                </ruby>り」をつくって<br class="pc">お部屋に飾ろう！</h3>
-                                            <p class="bl_EC_company hp_orange">埼玉県フラワー装飾技能士会</p>
+                                            <h3 class="bl_EC_title hp_orange">「ミニフラワーアレンジメント」で<br>お部屋を飾ろう！</h3>
+                                            <p class="bl_EC_company">埼玉県フラワー装飾技能士会</p>
+
+                                            <h4 class="bl_EC_Dayt yellow">1月14日（土）</h4>
+                                            <div class="bl_EC_Dayt_Detail yellow">
+                                                午前の部　10:30〜12:00（15名）<br>
+                                                午後の部　13:30〜 15:00（15名）
+                                            </div>
+
                                             <div class="bl_EC_capacity">
                                                 <dl class="hp_border_orange">
                                                     <dt class="hp_bg_orange">定員</dt>
                                                     <dd class="hp_orange">30名</dd>
                                                 </dl>
                                             </div>
-                                            <p class="bl_EC_desc">お花のパワーと<span
-                                                    class="up_text-iyashi">癒し</span>を感じながら、楽しく挑戦！</p>
-                                            <div class="bl_EC_btnWrap">
-                                                <a href="<?php echo get_page_link(19); ?>"
-                                                    class="el_btn el_btn_arrow hp_bg_secondyellow">体験ガイド</a>
-                                                <a href="https://www.youtube.com/watch?v=dymYzFfiIqs"
-                                                    class="el_btn el_btn_arrow hp_bg_orange">体験コース動画</a>
-                                                <!-- <a style="opacity: 0.4; color: white;" class="el_btn el_btn_arrow hp_bg_orange">体験コース動画</a> -->
+
+                                            <div class="bl_EC_object">
+                                                <p class="yellow">参加者が用意するもの</p>
+                                                <span>筆記用具</span>
                                             </div>
+                                            <p class="bl_EC_desc">お花のパワー癒しを感じながら、楽しく挑戦！<br>
+                                                ※体験のお花は写真と変わる場合があります。</p>
                                         </div>
                                     </div>
                                 </div>
@@ -317,22 +330,30 @@
                                             alt=""></figure>
                                     <div class="bl_EC_body">
                                         <div class="bl_EC_body_inner">
-                                            <h3 class="bl_EC_title hp_red">「移動ポケットケース」をつくってお出かけしよう！</h3>
-                                            <p class="bl_EC_company hp_red">埼玉県洋裁技能士会</p>
+                                            <h3 class="bl_EC_title hp_red">「小さい木のイス」をつくろう！</h3>
+                                            <p class="bl_EC_company">埼玉土建技能士会</p>
+
+                                            <h4 class="bl_EC_Dayt orange">1月28日（土）</h4>
+                                            <div class="bl_EC_Dayt_Detail orange">
+                                                午前の部　10:30〜12:00（15名）<br>
+                                                午後の部　13:30〜 15:00（15名）
+                                            </div>
+
                                             <div class="bl_EC_capacity">
                                                 <dl class="hp_border_red">
                                                     <dt class="hp_bg_red">定員</dt>
                                                     <dd class="hp_red">30名</dd>
                                                 </dl>
                                             </div>
-                                            <p class="bl_EC_desc">ミシンとアイロンを使って、便利なクリップつきポケットケースづくりに挑戦！</p>
-                                            <div class="bl_EC_btnWrap">
-                                                <a href="<?php echo get_page_link(72); ?>"
-                                                    class="el_btn el_btn_arrow hp_bg_blue">体験ガイド</a>
-                                                <a href="https://www.youtube.com/watch?v=UgzCdAdIsgE"
-                                                    class="el_btn el_btn_arrow hp_bg_secondblue">体験コース動画</a>
-                                                <!-- <a style="opacity: 0.4; color:white;" class="el_btn el_btn_arrow hp_bg_secondblue">体験コース動画</a> -->
+
+                                            <div class="bl_EC_object other">
+                                                <p class="orange">参加者が用意するもの</p>
+                                                <div>
+                                                    <span>えんぴつ、消しゴム、<ruby>定規<rt>じょうぎ</rt></ruby><br>よごれてもいい服装</span>
+                                                </div>
                                             </div>
+
+                                            <p class="bl_EC_desc">実際に座れて、小物置きとしても使えるイスに挑戦！</p>
                                         </div>
                                     </div>
                                 </div>
@@ -360,24 +381,24 @@
                                             alt=""></figure>
                                     <div class="bl_EC_body">
                                         <div class="bl_EC_body_inner">
-                                                                                                                       
-                                                     <h3 class="bl_EC_title hp_secondblue">「置き<ruby>畳<rt>だたみ</rt>
-                                                </ruby>」で<span class="up_text-kaza">飾</span>ってみよう！</h3>
-                                            <p class="bl_EC_company hp_secondblue">埼玉県畳技能士会</p>
+                                            <h3 class="bl_EC_title hp_secondblue">本格的な「石のハンコ」を<br>
+                                                ほってみよう！</h3>
+                                            <p class="bl_EC_company">埼玉県印章彫刻技能士会</p>
+                                            <h4 class="bl_EC_Dayt green">1月28日（土）</h4>
+                                            <div class="bl_EC_Dayt_Detail green">
+                                                午前の部　10:30〜12:00（15名）<br>
+                                                午後の部　13:30〜 15:00（15名）
+                                            </div>
+
                                             <div class="bl_EC_capacity">
                                                 <dl class="hp_border_secondblue">
                                                     <dt class="hp_bg_secondblue">定員</dt>
                                                     <dd class="hp_secondblue">30名</dd>
                                                 </dl>
                                             </div>
-                                            <p class="bl_EC_desc">針と糸を使っての手縫い作業で職人技に挑戦！</p>
-                                            <div class="bl_EC_btnWrap">
-                                                <a href="<?php echo get_page_link(74); ?>"
-                                                    class="el_btn el_btn_arrow hp_bg_orange">体験ガイド</a>
-                                                <a href="https://www.youtube.com/watch?v=KuMPO3k4qsI"
-                                                    class="el_btn el_btn_arrow hp_bg_red">体験コース動画</a>
-                                                <!-- <a style="opacity: 0.4; color:white;" class="el_btn el_btn_arrow hp_bg_red">体験コース動画</a> -->
-                                            </div>
+
+                                            <p class="bl_EC_desc">彫刻刀を使い、石をほり、はんこ屋さんの「技」に挑戦！<br>
+                                                ※参加者には事前にほる文字を決めていただきます。（漢字1文字またはカナ2文字）</p>
                                         </div>
                                     </div>
                                 </div>
@@ -406,22 +427,27 @@
                                     </figure>
                                     <div class="bl_EC_body">
                                         <div class="bl_EC_body_inner">
-                                            <h3 class="bl_EC_title hp_orange">自分だけの手づくり「タイルコースター」をつくろう！</h3>
-                                            <p class="bl_EC_company hp_orange">埼玉県タイル煉瓦工事工業組合技能士会</p>
+                                            <h3 class="bl_EC_title hp_orange">「タイルコースター」で使ったり、<br>
+                                                飾ったりしよう！</h3>
+                                            <p class="bl_EC_company">タイル技能士会</p>
+                                            <h4 class="bl_EC_Dayt yellow">1月28日（土）</h4>
+                                            <div class="bl_EC_Dayt_Detail yellow">
+                                                午前の部　10:30〜12:00（15名）<br>
+                                                午後の部　13:30〜 15:00（15名）
+                                            </div>
+
                                             <div class="bl_EC_capacity">
                                                 <dl class="hp_border_orange">
                                                     <dt class="hp_bg_orange">定員</dt>
                                                     <dd class="hp_orange">30名</dd>
                                                 </dl>
                                             </div>
-                                            <p class="bl_EC_desc">色とりどりのタイルと職人技で世界にひとつだけのコースターづくりに挑戦！</p>
-                                            <div class="bl_EC_btnWrap">
-                                                <a href="<?php echo get_page_link(76); ?>"
-                                                    class="el_btn el_btn_arrow hp_bg_secondyellow">体験ガイド</a>
-                                                <a href="https://www.youtube.com/watch?v=c9lCPDQFev0"
-                                                    class="el_btn el_btn_arrow hp_bg_orange">体験コース動画</a>
-                                                <!-- <a style="opacity: 0.4; color: white;" class="el_btn el_btn_arrow hp_bg_orange">体験コース動画</a> -->
+
+                                            <div class="bl_EC_object">
+                                                <p class="yellow">参加者が用意するもの</p>
+                                                <span>手ふきタオルかハンカチ</span>
                                             </div>
+                                            <p class="bl_EC_desc">色とりどりのタイルと職人技で世界にひとつだけのコースターづくりに挑戦！</p>
                                         </div>
                                     </div>
                                 </div>
