@@ -169,7 +169,7 @@
             <!-- ly_sepArrow -->
             <div class="ly_experience_box">
                 <div class="ly_sidebar hp_bg_blue pc"><img
-                        src="<?php echo get_template_directory_uri(); ?>/img/text_construction.png" alt="CONSTRUCTION">
+                        src="<?php echo get_template_directory_uri(); ?>/img/content_title_img/content_titile_bag01.svg" alt="">
                 </div>
                 <div class="ly_contentRight hp_bg_red">
                     <div class="inner">
@@ -182,7 +182,7 @@
                                     <div class="bl_EC_body">
                                         <div class="bl_EC_body_inner">
                                             <h3 class="bl_EC_title hp_red">
-                                                「トートバック」をつくって<br>
+                                                「トートバック」をつくって<br class="pc">
                                                 お出かけしよう！</h3>
                                             <p class="bl_EC_company">埼玉県洋裁技能士会、埼玉県洋裁技能協会</p>
 
@@ -214,7 +214,7 @@
             <!-- ly_experience_box -->
             <div class="ly_experience_box">
                 <div class="ly_sidebar hp_bg_orange pc"><img
-                        src="<?php echo get_template_directory_uri(); ?>/img/text_signature stamp.png"
+                        src="<?php echo get_template_directory_uri(); ?>/img/content_title_img/content_title_tatami02.svg"
                         alt="SIGNATURE STAMP"></div>
                 <div class="ly_contentRight hp_bg_secondblue">
                     <div class="inner">
@@ -226,7 +226,7 @@
                                             alt=""></figure>
                                     <div class="bl_EC_body">
                                         <div class="bl_EC_body_inner">
-                                            <h3 class="bl_EC_title hp_secondblue">「置き<ruby>畳<rt>だたみ</rt>
+                                            <h3 class="bl_EC_title hp_secondblue">「置き<ruby>畳<rt>たたみ</rt>
                                                 </ruby>」で<span class="up_text-kaza">飾</span>ってみよう！</h3>
                                             <p class="bl_EC_company">埼玉県畳技能士会</p>
 
@@ -265,7 +265,7 @@
             <!-- ly_experience_box -->
             <div class="ly_experience_box">
                 <div class="ly_sidebar hp_bg_yellow pc"><img
-                        src="<?php echo get_template_directory_uri(); ?>/img/text_flowerdecoration.png"
+                        src="<?php echo get_template_directory_uri(); ?>/img/content_title_img/content_title_flower03.svg"
                         alt="FLOWER DECORATION"></div>
                 <div class="ly_contentRight hp_bg_orange">
                     <div class="inner">
@@ -279,7 +279,7 @@
                                     </figure>
                                     <div class="bl_EC_body">
                                         <div class="bl_EC_body_inner">
-                                            <h3 class="bl_EC_title hp_orange">「ミニフラワーアレンジメント」で<br>お部屋を飾ろう！</h3>
+                                            <h3 class="bl_EC_title hp_orange">「ミニフラワーアレンジメント」で<br class="pc">お部屋を飾ろう！</h3>
                                             <p class="bl_EC_company">埼玉県フラワー装飾技能士会</p>
 
                                             <h4 class="bl_EC_Dayt yellow">1月14日（土）</h4>
@@ -318,7 +318,8 @@
             <!-- ＝＝＝＝＝＝＝＝＝＝＝＝＝＝ -->
             <div class="ly_experience_box">
                 <div class="ly_sidebar hp_bg_blue pc svg"><img
-                        src="<?php echo get_template_directory_uri(); ?>/img/img02/left_border_text/Dressmaking02.svg"
+                        class="content_title_image"
+                        src="<?php echo get_template_directory_uri(); ?>/img/content_title_img/content_title_chear04.svg"
                         alt="Dressmaking"></div>
                 <div class="ly_contentRight hp_bg_red">
                     <div class="inner">
@@ -369,7 +370,7 @@
             <!-- ly_experience_box -->
             <div class="ly_experience_box">
                 <div class="ly_sidebar hp_bg_orange pc svg"><img
-                        src="<?php echo get_template_directory_uri(); ?>/img/img02/left_border_text/JAPANESE TATAMI02.svg"
+                        src="<?php echo get_template_directory_uri(); ?>/img/content_title_img/content_title_stamp05.svg"
                         alt="JAPANESE TATAMI"></div>
                 <div class="ly_contentRight hp_bg_secondblue">
                     <div class="inner">
@@ -414,7 +415,7 @@
             <!-- ly_experience_box -->
             <div class="ly_experience_box">
                 <div class="ly_sidebar hp_bg_yellow pc svg"><img
-                        src="<?php echo get_template_directory_uri(); ?>/img/img02/left_border_text/TILE02.svg"
+                        src="<?php echo get_template_directory_uri(); ?>/img/content_title_img/content_title_tail06.svg"
                         alt="TILE"></div>
                 <div class="ly_contentRight hp_bg_orange">
                     <div class="inner">
@@ -427,7 +428,7 @@
                                     </figure>
                                     <div class="bl_EC_body">
                                         <div class="bl_EC_body_inner">
-                                            <h3 class="bl_EC_title hp_orange">「タイルコースター」で使ったり、<br>
+                                            <h3 class="bl_EC_title hp_orange">「タイルコースター」で使ったり、<br class="pc">
                                                 飾ったりしよう！</h3>
                                             <p class="bl_EC_company">タイル技能士会</p>
                                             <h4 class="bl_EC_Dayt yellow">1月28日（土）</h4>
@@ -607,7 +608,7 @@
                 <div class="bl_modal_close hp_bg_red js_modal_close"><img
                         src="<?php echo get_template_directory_uri(); ?>/img/modal_close.svg" alt="閉じる"></div>
                 <div class="bl_modal_inner">
-                    <h3 class="bl_modal_title hp_red">「置きだたみ」で<span class="up_text-kaza">飾</span>ってみよう！</h3>
+                    <h3 class="bl_modal_title hp_red">「置きたたみ」で<span class="up_text-kaza">飾</span>ってみよう！</h3>
                     <p class="bl_modal_text">参加決定者の受付番号</p>
                     <div class="bl_modal_list">
                         <?php
@@ -677,7 +678,7 @@
 
                 <div>カルタスホール会議室</div>
                 <p>さいたま市浦和区北浦和1-7-1　<br class="sp">北浦和ターミナルビル3階</p>
-                <a href="https://goo.gl/maps/7jup49pMBs2Cvp73A">
+                <a href="https://www.kitaurawa-terminal-bldg.com/library/5f59886f39d1c381430f0509/6008c9fe150f662270d7c461.pdf" target="_blank">
                     詳細地図はこちら
                     <svg xmlns="http://www.w3.org/2000/svg" width="19.64" height="19.64" viewBox="0 0 19.64 19.64">
                         <g id="グループ_340" data-name="グループ 340" transform="translate(-715.68 -6683.68)">
