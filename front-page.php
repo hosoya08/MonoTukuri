@@ -49,8 +49,8 @@
                     <div class="ly_MVC_bottom">
                         <p class="bl_mv_lead">匠の技をリアル体験</p>
                         <p class="bl_mv_desc">
-                            6種類の体験コースからひとつを選んで参加<br/>
-                            ものづくりの達人の技を間近で学び<br/>
+                            6種類の体験コースからひとつを選んで参加<br />
+                            ものづくりの達人の技を間近で学び<br />
                             ものづくりの魅力や楽しさをリアルに体験！
                         </p>
                     </div>
@@ -108,15 +108,17 @@
             <div class="ly_application_inner">
                 <ol class="bl_application_list">
                     <li class="bl_application_item">
-                        <h3 class="bl_application_item_title">申込フォームに<br>入力し参加申込をしてください。</h3>
-                        <div class="bl_application_item_num"><img
-                                src="<?php echo get_template_directory_uri(); ?>/img/application_item_num_01.svg"
-                                alt="1"></div>
+
+                        <h3 class="bl_application_item_title">申込フォームに入力し<br>参加申込をしてください。</h3>
+                        <div class="bl_application_item_num">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/application_item_num_01.svg"
+                                alt="1">
+                        </div>
                         <div class="bl_application_item_body">
                             <dl>
                                 <div>
                                     <dt>募集期間</dt>
-                                    <dd>7月5日（火）〜<br>18日（月・祝）17:00まで</dd>
+                                    <dd>12月9日（金）〜18日（日）17:00まで</dd>
                                 </div>
                             </dl>
                         </div>
@@ -126,39 +128,35 @@
                         <div class="bl_application_item_num"><img
                                 src="<?php echo get_template_directory_uri(); ?>/img/application_item_num_02.svg"
                                 alt="2"></div>
-                        <div class="bl_application_item_body">
-                            <p>7月下旬</p>
+                        <div class="bl_application_item_month-box">12月下旬</div>
+                        <div class="bl_application_item_body w100">
+                            <p>こちらのサイト内で、参加決定者の番号を公表します。<br>
+                                後日、決定者にはメールでご連絡もいたします</p>
                         </div>
                     </li>
                     <li class="bl_application_item">
-                        <h3 class="bl_application_item_title hp_DFandcenter">参加者に体験キットを<br>お届けします。</h3>
+                        <h3 class="bl_application_item_title hp_DFandcenter">会場に参加して、ものづくりを体験</h3>
                         <div class="bl_application_item_num"><img
                                 src="<?php echo get_template_directory_uri(); ?>/img/application_item_num_03.svg"
                                 alt="3"></div>
-                        <div class="bl_application_item_body">
-                            <p>※８月上旬を予定</p>
+                        <div class="bl_application_item_body w100">
+                            <table>
+                                <tr>
+                                    <th colspan="2">開催日</th>
+                                </tr>
+                                <tr>
+                                    <td>2023年1月14日（土）</td>
+                                    <td>2023年1月28日（土）</td>
+                                </tr>
+                            </table>
+
                         </div>
                     </li>
                     <li class="bl_application_item">
-                        <h3 class="bl_application_item_title">YouTubeを見て<br>ものづくりを体験！</h3>
+                        <h3 class="bl_application_item_title">体験が終わったら、<br>会場でアンケートにお答えください</h3>
                         <div class="bl_application_item_num"><img
                                 src="<?php echo get_template_directory_uri(); ?>/img/application_item_num_04.svg"
                                 alt="4"></div>
-                        <div class="bl_application_item_body">
-                            <dl>
-                                <div>
-                                    <dt>開催期間（動画配信）</dt>
-                                    <dd>8月10日（水）〜31日（水）</dd>
-                                </div>
-                            </dl>
-                        </div>
-                    </li>
-                    <li class="bl_application_item">
-                        <h3 class="bl_application_item_title hp_DFandcenter">体験が終わったら<br>アンケートに<br class="sp">お答えください。
-                        </h3>
-                        <div class="bl_application_item_num"><img
-                                src="<?php echo get_template_directory_uri(); ?>/img/application_item_num_05.svg"
-                                alt="5"></div>
                     </li>
                 </ol>
             </div>
@@ -273,7 +271,7 @@
                                     <div class="bl_EC_body">
                                         <div class="bl_EC_body_inner">
                                             <h3 class="bl_EC_title hp_orange">「フラワー<ruby>壁飾<rt>かべかざ</rt>
-                                                    </ruby>り」をつくって<br class="pc">お部屋に飾ろう！</h3>
+                                                </ruby>り」をつくって<br class="pc">お部屋に飾ろう！</h3>
                                             <p class="bl_EC_company hp_orange">埼玉県フラワー装飾技能士会</p>
                                             <div class="bl_EC_capacity">
                                                 <dl class="hp_border_orange">
@@ -364,7 +362,7 @@
                                         <div class="bl_EC_body_inner">
                                                                                                                        
                                                      <h3 class="bl_EC_title hp_secondblue">「置き<ruby>畳<rt>だたみ</rt>
-                                                    </ruby>」で<span class="up_text-kaza">飾</span>ってみよう！</h3>
+                                                </ruby>」で<span class="up_text-kaza">飾</span>ってみよう！</h3>
                                             <p class="bl_EC_company hp_secondblue">埼玉県畳技能士会</p>
                                             <div class="bl_EC_capacity">
                                                 <dl class="hp_border_secondblue">

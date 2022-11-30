@@ -475,7 +475,8 @@ TOP Page
 .bl_application_list{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  gap: 36px;
+  width: 1120px;
 }
 .bl_application_item{
   position: relative;
@@ -483,11 +484,16 @@ TOP Page
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 31.5%;
-  margin-right: 2.75%;
+  width: calc( 50% - 36px );
   text-align: center;
   padding: 20px 20px;
-  margin-bottom: 20px;
+  height: 217px;
+}
+.bl_application_item:nth-of-type(4) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 }
 .bl_application_item:nth-of-type(3n){
   margin-right: 0;
@@ -504,9 +510,10 @@ TOP Page
   transform: translateY(-50%);
   left: -6.5%;
 }
+
 .bl_application_item_title{
   font-size: 18px;
-  order: 1;
+  order: 0;
   margin-bottom: 20px;
   color: var(--yellow-third);
   font-weight: 700;
@@ -515,33 +522,67 @@ TOP Page
   height: 74px;
   order: 0;
   margin-bottom: 20px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 .bl_application_item_num img{
   height: 100%;
   object-fit: contain;
 }
+.bl_application_item_month-box {
+  width: 139px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #919127;
+  color: #919127;
+  margin-top: 20px;
+}
 .bl_application_item_body{
   order: 2;
+  width: 302px;
+}
+.bl_application_item_body.w100 {
   width: 100%;
 }
-.bl_application_item_body dl{
+.bl_application_item_body.w100 table {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.bl_application_item_body h4 {
+  font-size: 18px;
+  color: #919127;
+}
+.bl_application_item_body dl,
+.bl_application_item_body table
+{
   font-weight: 700;
 }
 .bl_application_item_body dl div{
 
 }
-.bl_application_item_body dt{
+.bl_application_item_body dt,
+.bl_application_item_body th
+{
   color: #fff;
   background-color: var(--yellow-third);
   padding: 0 4px;
 }
-.bl_application_item_body dd{
+.bl_application_item_body dd,
+.bl_application_item_body td
+{
   color: var(--yellow-third);
   border: 1px solid var(--yellow-third);
   padding: 6px 4px;
 }
+.bl_application_item_body tr {
+  border: 1px solid var(--yellow-third);
+}
 .bl_application_item_body p{
   font-size: 14px;
+  margin-top: 20px;
 }
 .bl_application_item_body p:not(:first-child){
   margin-top: 15px;
