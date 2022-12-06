@@ -694,8 +694,9 @@
                                 stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
                         </g>
                     </svg>
-
                 </a>
+
+                <a class="el_btn el_btn_arrow" href="http://xs325755.xsrv.jp/form/con.php">参加申込はコチラから</a>
 
             </div>
         </section>
