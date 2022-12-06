@@ -169,7 +169,8 @@
             <!-- ly_sepArrow -->
             <div class="ly_experience_box">
                 <div class="ly_sidebar hp_bg_blue pc"><img
-                        src="<?php echo get_template_directory_uri(); ?>/img/content_title_img/content_titile_bag01.svg" alt="">
+                        src="<?php echo get_template_directory_uri(); ?>/img/content_title_img/content_titile_bag01.svg"
+                        alt="">
                 </div>
                 <div class="ly_contentRight hp_bg_red">
                     <div class="inner">
@@ -177,8 +178,8 @@
                             <div class="bl_experience_content">
                                 <div class="ly_EC_top">
                                     <figure class="bl_EC_figure"><img
-                                            src="<?php echo get_template_directory_uri(); ?>/img/bag_img.png"
-                                            alt=""></figure>
+                                            src="<?php echo get_template_directory_uri(); ?>/img/bag_img.png" alt="">
+                                    </figure>
                                     <div class="bl_EC_body">
                                         <div class="bl_EC_body_inner">
                                             <h3 class="bl_EC_title hp_red">
@@ -243,13 +244,14 @@
                                                 </dl>
                                             </div>
 
+                                            <p class="bl_EC_desc">針と糸を使っての<ruby>手縫<rt>てぬ</rt></ruby>い作業で職人技に挑戦！</p>
+
                                             <div class="bl_EC_object">
                                                 <p class="green">参加者が用意するもの</p>
                                                 <span>はさみ、</span>
                                                 <span>ホチキス</span>
                                             </div>
 
-                                            <p class="bl_EC_desc">針と糸を使っての手縫い作業で職人技に挑戦！</p>
                                         </div>
                                     </div>
                                 </div>
@@ -273,13 +275,13 @@
                             <div class="bl_experience_content">
                                 <div class="ly_EC_top">
                                     <figure class="bl_EC_figure"><img
-                                            src="<?php echo get_template_directory_uri(); ?>/img/flower_img.png"
-                                            alt="">
+                                            src="<?php echo get_template_directory_uri(); ?>/img/flower_img.png" alt="">
                                         <!-- <p>※体験キットは1つです</p> -->
                                     </figure>
                                     <div class="bl_EC_body">
                                         <div class="bl_EC_body_inner">
-                                            <h3 class="bl_EC_title hp_orange">「ミニフラワーアレンジメント」で<br class="pc">お部屋を飾ろう！</h3>
+                                            <h3 class="bl_EC_title hp_orange">「ミニフラワーアレンジメント」で<br class="pc">お部屋を飾ろう！
+                                            </h3>
                                             <p class="bl_EC_company">埼玉県フラワー装飾技能士会</p>
 
                                             <h4 class="bl_EC_Dayt yellow">1月14日（土）</h4>
@@ -295,12 +297,12 @@
                                                 </dl>
                                             </div>
 
+                                            <p class="bl_EC_desc">お花のパワーを<ruby>癒<rt>いや</rt></ruby>しを感じながら、楽しく挑戦！<br>
+                                                ※体験では季節のお花を使います。</p>
                                             <div class="bl_EC_object">
                                                 <p class="yellow">参加者が用意するもの</p>
                                                 <span>筆記用具</span>
                                             </div>
-                                            <p class="bl_EC_desc">お花のパワー癒しを感じながら、楽しく挑戦！<br>
-                                                ※体験のお花は写真と変わる場合があります。</p>
                                         </div>
                                     </div>
                                 </div>
@@ -317,8 +319,7 @@
             <!-- 追加　項目 -->
             <!-- ＝＝＝＝＝＝＝＝＝＝＝＝＝＝ -->
             <div class="ly_experience_box">
-                <div class="ly_sidebar hp_bg_blue pc svg"><img
-                        class="content_title_image"
+                <div class="ly_sidebar hp_bg_blue pc svg"><img class="content_title_image"
                         src="<?php echo get_template_directory_uri(); ?>/img/content_title_img/content_title_chear04.svg"
                         alt="Dressmaking"></div>
                 <div class="ly_contentRight hp_bg_red">
@@ -347,6 +348,8 @@
                                                 </dl>
                                             </div>
 
+                                            <p class="bl_EC_desc">実際に座れて、小物置きとしても使えるイスに挑戦！</p>
+
                                             <div class="bl_EC_object other">
                                                 <p class="orange">参加者が用意するもの</p>
                                                 <div>
@@ -354,7 +357,6 @@
                                                 </div>
                                             </div>
 
-                                            <p class="bl_EC_desc">実際に座れて、小物置きとしても使えるイスに挑戦！</p>
                                         </div>
                                     </div>
                                 </div>
@@ -378,8 +380,8 @@
                             <div class="bl_experience_content">
                                 <div class="ly_EC_top">
                                     <figure class="bl_EC_figure"><img
-                                            src="<?php echo get_template_directory_uri(); ?>/img/stanp_img.png"
-                                            alt=""></figure>
+                                            src="<?php echo get_template_directory_uri(); ?>/img/stanp_img.png" alt="">
+                                    </figure>
                                     <div class="bl_EC_body">
                                         <div class="bl_EC_body_inner">
                                             <h3 class="bl_EC_title hp_secondblue">本格的な「石のハンコ」を<br>
@@ -398,7 +400,8 @@
                                                 </dl>
                                             </div>
 
-                                            <p class="bl_EC_desc">彫刻刀を使い、石をほり、はんこ屋さんの「技」に挑戦！<br>
+                                            <p class="bl_EC_desc"><ruby>彫刻刀<rt>ちょうこくとう</rt>
+                                                    </ruby>を使い、石をほり、はんこ屋さんの「技」に挑戦！<br>
                                                 ※参加者には事前にほる文字を決めていただきます。（漢字1文字またはカナ2文字）</p>
                                         </div>
                                     </div>
@@ -428,9 +431,8 @@
                                     </figure>
                                     <div class="bl_EC_body">
                                         <div class="bl_EC_body_inner">
-                                            <h3 class="bl_EC_title hp_orange">「タイルコースター」で使ったり、<br class="pc">
-                                                飾ったりしよう！</h3>
-                                            <p class="bl_EC_company">タイル技能士会</p>
+                                            <h3 class="bl_EC_title hp_orange">自分だけの手づくり「タイルコースター」をつくろう！</h3>
+                                            <p class="bl_EC_company">埼玉県タイル煉瓦工事工業組合技能士会</p>
                                             <h4 class="bl_EC_Dayt yellow">1月28日（土）</h4>
                                             <div class="bl_EC_Dayt_Detail yellow">
                                                 午前の部　10:30〜12:00（15名）<br>
@@ -444,11 +446,12 @@
                                                 </dl>
                                             </div>
 
+                                            <p class="bl_EC_desc">色とりどりのタイルと職人技で世界にひとつだけのコースターづくりに挑戦！</p>
+
                                             <div class="bl_EC_object">
                                                 <p class="yellow">参加者が用意するもの</p>
                                                 <span>手ふきタオルかハンカチ</span>
                                             </div>
-                                            <p class="bl_EC_desc">色とりどりのタイルと職人技で世界にひとつだけのコースターづくりに挑戦！</p>
                                         </div>
                                     </div>
                                 </div>
@@ -677,8 +680,11 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                 <div>カルタスホール会議室</div>
-                <p>さいたま市浦和区北浦和1-7-1　<br class="sp">北浦和ターミナルビル3階</p>
-                <a href="https://www.kitaurawa-terminal-bldg.com/library/5f59886f39d1c381430f0509/6008c9fe150f662270d7c461.pdf" target="_blank">
+                <p>さいたま市浦和区北浦和1-7-1　<br class="sp">北浦和ターミナルビル3階 <br class="pc">
+                    （JR京浜東北線北浦和駅東口 徒歩3分）
+                </p>
+                <a href="https://www.kitaurawa-terminal-bldg.com/library/5f59886f39d1c381430f0509/6008c9fe150f662270d7c461.pdf"
+                    target="_blank">
                     詳細地図はこちら
                     <svg xmlns="http://www.w3.org/2000/svg" width="19.64" height="19.64" viewBox="0 0 19.64 19.64">
                         <g id="グループ_340" data-name="グループ 340" transform="translate(-715.68 -6683.68)">
@@ -687,16 +693,18 @@
                                 <path d="M9.82,0A9.82,9.82,0,1,1,0,9.82,9.82,9.82,0,0,1,9.82,0Z" stroke="none" />
                                 <path
                                     d="M 9.81982421875 1.000003814697266 C 4.956554412841797 1.000003814697266 1.000003814697266 4.956554412841797 1.000003814697266 9.81982421875 C 1.000003814697266 14.6830940246582 4.956554412841797 18.63964462280273 9.81982421875 18.63964462280273 C 14.6830940246582 18.63964462280273 18.63964462280273 14.6830940246582 18.63964462280273 9.81982421875 C 18.63964462280273 4.956554412841797 14.6830940246582 1.000003814697266 9.81982421875 1.000003814697266 M 9.81982421875 3.814697265625e-06 C 15.2431640625 3.814697265625e-06 19.63964462280273 4.396484375 19.63964462280273 9.81982421875 C 19.63964462280273 15.2431640625 15.2431640625 19.63964462280273 9.81982421875 19.63964462280273 C 4.396484375 19.63964462280273 3.814697265625e-06 15.2431640625 3.814697265625e-06 9.81982421875 C 3.814697265625e-06 4.396484375 4.396484375 3.814697265625e-06 9.81982421875 3.814697265625e-06 Z"
-                                    stroke="none" fill="#fff" />
+                                    stroke="none" fill="#ffff00" />
                             </g>
                             <path id="パス_395" data-name="パス 395" d="M0,3.138,3.139,0,6.277,3.138"
-                                transform="translate(726.956 6690.341) rotate(90)" fill="none" stroke="#fff"
+                                transform="translate(726.956 6690.341) rotate(90)" fill="none" stroke="#ffff00"
                                 stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
                         </g>
                     </svg>
                 </a>
 
-                <a class="el_btn el_btn_arrow" href="http://xs325755.xsrv.jp/form/con.php">参加申込はコチラから</a>
+                <a class="el_btn el_btn_arrow" href="http://xs325755.xsrv.jp/form/con.php">
+                    <span>参加申込はコチラから</span>申込フォーム
+                </a>
 
             </div>
         </section>

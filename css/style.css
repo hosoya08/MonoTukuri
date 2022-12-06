@@ -1,6 +1,6 @@
 :root {
   --yellow: #FFFF00;
-  /* --orange: #F38200; */
+  --orange02: #F38200;
   --orange: #FEBA00;
   /* --red: #D6046C; */
   --red: #F18545;
@@ -55,7 +55,7 @@ a:focus {
   right: 20px;
   bottom: 45px;
   z-index: 10;
-  background-color: var(--red);
+  background-color: #E01F06;
 }
 
 .bl_pagetop::before {
@@ -463,7 +463,7 @@ TOP Page
 .ly_contentRight {}
 
 .ly_news_inner {
-  background-color: var(--orange);
+  background-color: var(--red);
   padding: 50px 0;
 }
 
@@ -856,7 +856,7 @@ TOP Page
 
 .bl_EC_capacity {
   width: 186px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .bl_EC_capacity dl {
@@ -907,7 +907,7 @@ TOP Page
 
 .bl_EC_desc {
   font-weight: 400;
-  margin-bottom: 44px;
+  margin-bottom: 20px;
 }
 
 .bl_EC_btnWrap {
@@ -988,18 +988,23 @@ TOP Page
   font-size: 16px;
   color: #fff;
   text-align: center;
+  margin: auto;
   margin-top: 10px;
   font-weight: 400;
+  width: 90%;
 }
 
 .ly_cta_inner a {
   font-size: 16px;
-  color: #fff;
   margin-top: 20px;
   font-weight: 400;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.ly_cta_inner a:nth-of-type(1) {
+  color: var(--yellow);
 }
 
 .ly_cta_inner svg {
@@ -1008,15 +1013,23 @@ TOP Page
 
 .cta .el_btn {
   position: relative;
-  padding: 40px 70px 40px 50px;
-  background-color: var(--orange);
+  padding: 20px 70px 20px 50px;
+  background-color: var(--orange02);
   width: 605px;
   border-radius: 20px;
   font-size: 28px;
+  font-weight: bold;
   margin: 0 auto;
   z-index: 2;
   box-shadow: 5px 5px 0 var(--yellow);
   margin-top: 30px;
+  flex-direction: column;
+}
+
+.cta .el_btn span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
 }
 
 .cta .el_btn_arrow::before {
