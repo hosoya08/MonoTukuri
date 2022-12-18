@@ -297,7 +297,7 @@
                                                 </dl>
                                             </div>
 
-                                            <p class="bl_EC_desc">お花のパワーを<ruby>癒<rt>いや</rt></ruby>しを感じながら、楽しく挑戦！<br>
+                                            <p class="bl_EC_desc">お花のパワーと<ruby>癒<rt>いや</rt></ruby>しを感じながら、楽しく挑戦！<br>
                                                 ※体験では季節のお花を使います。</p>
                                             <div class="bl_EC_object">
                                                 <p class="yellow">参加者が用意するもの</p>
@@ -401,7 +401,7 @@
                                             </div>
 
                                             <p class="bl_EC_desc"><ruby>彫刻刀<rt>ちょうこくとう</rt>
-                                                    </ruby>を使い、石をほり、はんこ屋さんの「技」に挑戦！<br>
+                                                </ruby>を使い、石をほり、はんこ屋さんの「技」に挑戦！<br>
                                                 ※参加者には事前にほる文字を決めていただきます。（漢字1文字またはカナ2文字）</p>
                                         </div>
                                     </div>
@@ -481,7 +481,8 @@
                 <div class="bl_modal_close hp_bg_red js_modal_close"><img
                         src="<?php echo get_template_directory_uri(); ?>/img/modal_close.svg" alt="閉じる"></div>
                 <div class="bl_modal_inner">
-                    <h3 class="bl_modal_title hp_red">「小さい木のイス」をつくろう！</h3>
+                    <h3 class="bl_modal_title hp_red">「トートバック」をつくって
+                        お出かけしよう！</h3>
                     <p class="bl_modal_text">参加決定者の受付番号</p>
                     <div class="bl_modal_list">
                         <?php
@@ -514,7 +515,7 @@
                 <div class="bl_modal_close hp_bg_red js_modal_close"><img
                         src="<?php echo get_template_directory_uri(); ?>/img/modal_close.svg" alt="閉じる"></div>
                 <div class="bl_modal_inner">
-                    <h3 class="bl_modal_title hp_red">「消しゴムはんこ」で身近な人に手紙を送ろう！</h3>
+                    <h3 class="bl_modal_title hp_red">「置き畳たたみ」で飾ってみよう！</h3>
                     <p class="bl_modal_text">参加決定者の受付番号</p>
                     <div class="bl_modal_list">
                         <?php
@@ -546,7 +547,8 @@
                 <div class="bl_modal_close hp_bg_red js_modal_close"><img
                         src="<?php echo get_template_directory_uri(); ?>/img/modal_close.svg" alt="閉じる"></div>
                 <div class="bl_modal_inner">
-                    <h3 class="bl_modal_title hp_red">「フラワー壁飾り」をつくってお部屋に飾ろう！</h3>
+                    <h3 class="bl_modal_title hp_red">「ミニフラワーアレンジメント」で
+                        お部屋を飾ろう！</h3>
                     <p class="bl_modal_text">参加決定者の受付番号</p>
                     <div class="bl_modal_list">
                         <?php
@@ -578,7 +580,7 @@
                 <div class="bl_modal_close hp_bg_red js_modal_close"><img
                         src="<?php echo get_template_directory_uri(); ?>/img/modal_close.svg" alt="閉じる"></div>
                 <div class="bl_modal_inner">
-                    <h3 class="bl_modal_title hp_red">「移動ポケットケース」をつくってお出かけしよう！</h3>
+                    <h3 class="bl_modal_title hp_red">「小さい木のイス」をつくろう！</h3>
                     <p class="bl_modal_text">参加決定者の受付番号</p>
                     <div class="bl_modal_list">
                         <?php
@@ -611,7 +613,8 @@
                 <div class="bl_modal_close hp_bg_red js_modal_close"><img
                         src="<?php echo get_template_directory_uri(); ?>/img/modal_close.svg" alt="閉じる"></div>
                 <div class="bl_modal_inner">
-                    <h3 class="bl_modal_title hp_red">「置きたたみ」で<span class="up_text-kaza">飾</span>ってみよう！</h3>
+                    <h3 class="bl_modal_title hp_red">本格的な「石のハンコ」を
+                        ほってみよう！</h3>
                     <p class="bl_modal_text">参加決定者の受付番号</p>
                     <div class="bl_modal_list">
                         <?php
@@ -702,9 +705,50 @@
                     </svg>
                 </a>
 
-                <a class="el_btn el_btn_arrow" href="http://xs325755.xsrv.jp/form/con.php">
+
+
+
+
+                <?php
+                $day_form_btn = date('Y年m月d日H時i分');
+                // echo $day_form_btn;
+                
+                if ($day_form_btn >= '2022年12月09日09時00分' && $day_form_btn <= '2022年12月18日17時00分'): ?>
+                <a class="el_btn el_btn_arrow" href="http://saitama-vada.sakura.ne.jp/form/con.php">
                     <span>参加申込はコチラから</span>申込フォーム
                 </a>
+                <?php elseif ($day_form_btn >= '2022年12月21日09時00分' && $day_form_btn <= '2023年01月04日17時00分'): ?>
+                <a class="el_btn el_btn_arrow" href="http://saitama-vada.sakura.ne.jp/form/con.php">
+                    <span>参加申込はコチラから</span>申込フォーム
+                </a>
+                <?php elseif ($day_form_btn > '2023年01月04日17時00分'): ?>
+                <a class="el_btn el_btn_arrow nonhover" style="color:white;
+                                  cursor: not-allowed;
+                                      background-color: #a2a2a2;
+                                  box-shadow: 5px 5px 0 #323232;
+                                  padding: 20px 50px 20px 20px;
+                                  ">
+                    申込みは終了しました。
+                </a>
+                <?php else: ?>
+                <a class="el_btn el_btn_arrow nonhover" style="color:white;
+                                  cursor: not-allowed;
+                                      background-color: #a2a2a2;
+                                  box-shadow: 5px 5px 0 #323232;
+                                  padding: 20px 50px 20px 20px;
+                                  ">
+                    <span>第一回目の申込みは終了しました。</span>
+                    ２１日〜１月４日まで再募集を致します。
+                </a>
+                <?php endif; ?>
+
+                <style>
+                    .el_btn.el_btn_arrow.nonhover {
+                        opacity: 1;
+                    }
+
+                </style>
+
 
             </div>
         </section>
