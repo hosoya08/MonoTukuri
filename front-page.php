@@ -737,8 +737,7 @@
                                   box-shadow: 5px 5px 0 #323232;
                                   padding: 20px 50px 20px 20px;
                                   ">
-                    <span>第一回目の申込みは終了しました。</span>
-                    ２１日〜１月４日まで再募集を致します。
+                    <span>参加応募は終了しました。</span>
                 </a>
                 <?php endif; ?>
 
